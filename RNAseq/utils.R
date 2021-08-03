@@ -1,4 +1,7 @@
 library(metafor)
+library(edgeR)
+library(ggplot2)
+library(stringr)
 
 # performs TMM normalisation and gene filtering
 preprocessCounts <- function(counts, samples, genes, design_matrix,
