@@ -18,6 +18,7 @@ parser.add_argument('--drugbank', type = str, help = 'Filepath to DrugBank .xml 
 parser.add_argument('--pathway_commons', type = str, help = 'Filepath to Pathway Commons .txt file')
 parser.add_argument('--remap', type = str, help = 'Filepath to ReMap .bed file')
 parser.add_argument('--uniprot_idmapping', type = str, help = 'Filepath to Uniprot .tab file for idmapping')
+parser.add_argument('--password', type = str, help = 'Password for the neo4j graph database')
 args = parser.parse_args()
 
 # initialise class instances for data parsers
@@ -91,7 +92,7 @@ if __name__ == '__main__':
     
     uri = 'bolt://localhost:7687'
     user = 'neo4j'
-    password = 'doxorubicin'
+    password = args.password
     graph_db = GraphAPI(uri, user, password)
     graph_db.writeGraph(all_relationships, 
                         all_properties,
