@@ -1,0 +1,1825 @@
+symbol,entrez,organism,source,senescence_effect
+ACLY,47,Human,CellAge,Inhibits
+AAK1,22848,Human,CellAge,Induces
+ABI3,51225,Human,CellAge,Induces
+ADCK5,203054,Human,CellAge,Induces
+AKR1B1,231,Human,CellAge,Inhibits
+AGT,183,Human,CellAge/CSgene,Induces
+AKT1,207,Human,CellAge/Ageing atlas/CSgene/InnateDB,Induces
+ALOX15B,247,Human,CellAge,Induces
+AR,367,Human,CellAge/Ageing atlas,Induces
+ARPC1B,10095,Human,CellAge,Induces
+ASF1A,25842,Human,CellAge/CSgene,Induces
+ASPH,444,Human,CellAge,Inhibits
+ATF7IP,55729,Human,CellAge/CSgene,Inhibits
+ATM,472,Human,CellAge/Ageing atlas/CSgene,Inhibits
+AURKA,6790,Human,CellAge,Inhibits
+AXL,558,Human,CellAge/Ageing atlas/InnateDB,Induces
+BAG3,9531,Human,CellAge,Inhibits
+BHLHE40,8553,Human,CellAge,Induces
+BCL6,604,Human,CellAge,Inhibits
+BLK,640,Human,CellAge,Induces
+BLVRA,644,Human,CellAge,Inhibits
+BMI1,648,Human,CellAge/Ageing atlas/CSgene,Inhibits
+BRAF,673,Human,CellAge/CSgene,Induces
+BRD7,29117,Human,CellAge/CSgene,Induces
+BRCA1,672,Human,CellAge/Ageing atlas/CSgene,Inhibits
+BTG3,10950,Human,CellAge/CSgene,Inhibits
+C11orf31,280636,Human,CellAge,Inhibits
+CAV1,857,Human,CellAge/CSgene/InnateDB,Induces
+CBX7,23492,Human,CellAge/Ageing atlas,Inhibits
+CBX8,57332,Human,CellAge/CSgene,Inhibits
+CCND1,595,Human,CellAge/CSgene,Induces
+CDK1,983,Human,CellAge/Ageing atlas/CSgene,Inhibits
+CDK18,5129,Human,CellAge,Induces
+CDK2AP1,8099,Human,CellAge,Inhibits
+CDK6,1021,Human,CellAge/CSgene/InnateDB,Inhibits
+CDK4,1019,Human,CellAge/CSgene,Inhibits
+CDKN1A,1026,Human,CellAge/Ageing atlas/CSgene,Induces
+CDKN1C,1028,Human,CellAge,Induces
+CDKN1B,1027,Human,CellAge/CSgene,Induces
+CDKN2A,1029,Human,CellAge/Ageing atlas/CSgene/InnateDB,Induces
+CDKN2AIP,55602,Human,CellAge/CSgene,Induces
+CDKN2B,1030,Human,CellAge/Ageing atlas/CSgene,Induces
+CENPA,1058,Human,CellAge/CSgene,Inhibits
+CEBPB,1051,Human,CellAge/Ageing atlas/CSgene/InnateDB,Induces
+CHEK1,1111,Human,CellAge/CSgene,Induces
+CKB,1152,Human,CellAge/CSgene,Induces
+CPEB1,64506,Human,CellAge/CSgene,Induces
+CSNK1A1,1452,Human,CellAge,Inhibits
+CTNNAL1,8727,Human,CellAge/CSgene/InnateDB,Inhibits
+CSNK2A1,1457,Human,CellAge/CSgene,Inhibits
+CXCL1,2919,Human,CellAge/Ageing atlas,Induces
+DDB2,1643,Human,CellAge,Induces
+CYR61,3491,Human,CellAge,Induces
+DEK,7913,Human,CellAge/CSgene,Inhibits
+DGCR8,54487,Human,CellAge,Inhibits
+DHCR24,1718,Human,CellAge/InnateDB,Induces
+DLX2,1746,Human,CellAge,Inhibits
+DHX9,1660,Human,CellAge/InnateDB,Inhibits
+DPY30,84661,Human,CellAge/CSgene,Inhibits
+DUSP3,1845,Human,CellAge,Inhibits
+DUSP16,80824,Human,CellAge/InnateDB,Inhibits
+E2F1,1869,Human,CellAge/Ageing atlas/CSgene/InnateDB,Induces
+EHF,26298,Human,CellAge/CSgene,Induces
+ENDOG,2021,Human,CellAge,Inhibits
+EPHA3,2042,Human,CellAge,Inhibits
+ERRFI1,54206,Human,CellAge/CSgene,Induces
+ETS1,2113,Human,CellAge/CSgene/InnateDB,Induces
+ETS2,2114,Human,CellAge/CSgene,Induces
+EWSR1,2130,Human,CellAge/CSgene,Induces
+FASTK,10922,Human,CellAge,Induces
+EZH2,2146,Human,CellAge/CSgene,Inhibits
+FBXO31,79791,Human,CellAge,Induces
+FOXM1,2305,Human,CellAge/Ageing atlas/CSgene,Inhibits
+FOS,2353,Human,CellAge/Ageing atlas/CSgene,Inhibits
+FOXO3,2309,Human,CellAge/Ageing atlas/InnateDB,Inhibits
+FXR1,8087,Human,CellAge/InnateDB,Inhibits
+G6PD,2539,Human,CellAge/CSgene,Inhibits
+GAPDH,2597,Human,CellAge/Ageing atlas/CSgene,Inhibits
+GKN1,56287,Human,CellAge,Induces
+GATA4,2626,Human,CellAge/InnateDB,Induces
+GNG11,2791,Human,CellAge,Induces
+GLB1,2720,Human,CellAge,Inhibits
+GRK6,2870,Human,CellAge,Induces
+HDAC4,9759,Human,CellAge,Inhibits
+HDAC1,3065,Human,CellAge/Ageing atlas/CSgene/InnateDB,Induces
+HEPACAM,220296,Human,CellAge/CSgene,Induces
+HJURP,55355,Human,CellAge/CSgene,Inhibits
+HIVEP1,3096,Human,CellAge,Inhibits
+HK3,3101,Human,CellAge/Ageing atlas,Induces
+HMGB1,3146,Human,CellAge/Ageing atlas/InnateDB,Inhibits
+HRAS,3265,Human,CellAge/Ageing atlas/CSgene/InnateDB,Induces
+HSPA5,3309,Human,CellAge/CSgene,Inhibits
+HSPB2,3316,Human,CellAge,Inhibits
+ID1,3397,Human,CellAge/CSgene,Inhibits
+ID4,3400,Human,CellAge,Induces
+IGFBP1,3484,Human,CellAge/Ageing atlas/CSgene,Induces
+IFNG,3458,Human,CellAge/CSgene/InnateDB,Induces
+IGFBP3,3486,Human,CellAge/Ageing atlas/CSgene,Induces
+IGFBP6,3489,Human,CellAge,Inhibits
+IGFBP5,3488,Human,CellAge/CSgene,Induces
+IL1A,3552,Human,CellAge/Ageing atlas/InnateDB,Induces
+IL8,3576,Human,CellAge/Ageing atlas/CSgene/InnateDB,Induces
+ING1,3621,Human,CellAge/CSgene,Induces
+ING2,3622,Human,CellAge,Induces
+IRF3,3661,Human,CellAge/CSgene/InnateDB,Induces
+IRF5,3663,Human,CellAge/CSgene/InnateDB,Induces
+IRF7,3665,Human,CellAge/CSgene/InnateDB,Induces
+ITPK1,3705,Human,CellAge,Induces
+ITGB4,3691,Human,CellAge/CSgene,Induces
+ITPKB,3707,Human,CellAge,Induces
+ITSN2,50618,Human,CellAge,Induces
+KCNJ12,3768,Human,CellAge/CSgene,Inhibits
+KDM4A,9682,Human,CellAge/InnateDB,Unclear
+KDM5B,10765,Human,CellAge,Inhibits
+KIAA1524,57650,Human,CellAge/CSgene,Inhibits
+KL,9365,Human,CellAge/Ageing atlas/CSgene,Inhibits
+KSR2,283455,Human,CellAge,Unclear
+LATS1,9113,Human,CellAge,Inhibits
+LEO1,123169,Human,CellAge,Unclear
+LGALS3,3958,Human,CellAge/InnateDB,Inhibits
+LIMA1,51474,Human,CellAge,Inhibits
+LIMK1,3984,Human,CellAge,Induces
+MAGEA2,4101,Human,CellAge/CSgene,Inhibits
+MAGOH,4116,Human,CellAge,Inhibits
+MAD2L1,4085,Human,CellAge/CSgene,Inhibits
+MAGOHB,55110,Human,CellAge,Inhibits
+MAP2K1,5604,Human,CellAge/CSgene/InnateDB,Induces
+MAP2K3,5606,Human,CellAge/CSgene/InnateDB,Inhibits
+MAP2K2,5605,Human,CellAge/InnateDB,Induces
+MAP2K6,5608,Human,CellAge/CSgene/InnateDB,Induces
+MAP3K6,9064,Human,CellAge,Induces
+MAP2K7,5609,Human,CellAge/CSgene/InnateDB,Induces
+MAP4K1,11184,Human,CellAge,Inhibits
+MAP3K7,6885,Human,CellAge/Ageing atlas/InnateDB,Induces
+MAPK12,6300,Human,CellAge,Induces
+MAPKAPK5,8550,Human,CellAge/CSgene,Induces
+Mar-05,54708,Human,CellAge/CSgene/InnateDB,Inhibits
+MAPK14,1432,Human,CellAge/Ageing atlas/CSgene/InnateDB,Induces
+MAST1,22983,Human,CellAge,Induces
+MATK,4145,Human,CellAge,Induces
+MCL1,4170,Human,CellAge/CSgene,Inhibits
+MDH1,4190,Human,CellAge,Inhibits
+MCRS1,10445,Human,CellAge/CSgene,Induces
+MECP2,4204,Human,CellAge/CSgene,Inhibits
+MOB3A,126308,Human,CellAge,Induces
+MMP9,4318,Human,CellAge/InnateDB,Inhibits
+MORC3,23515,Human,CellAge/CSgene,Induces
+MORF4,10934,Human,CellAge,Induces
+MXD4,10608,Human,CellAge,Induces
+MVK,4598,Human,CellAge/Ageing atlas,Induces
+MYC,4609,Human,CellAge/Ageing atlas/CSgene,Inhibits
+MYLK,4638,Human,CellAge/Ageing atlas,Inhibits
+NADK,65220,Human,CellAge,Induces
+NANOG,79923,Human,CellAge,Inhibits
+NDRG1,10397,Human,CellAge/CSgene,Induces
+NEK1,4750,Human,CellAge,Inhibits
+NEK4,6787,Human,CellAge,Induces
+NEK6,10783,Human,CellAge/CSgene,Inhibits
+NFE2L2,4780,Human,CellAge/Ageing atlas/InnateDB,Inhibits
+NINJ1,4814,Human,CellAge/CSgene,Induces
+NOTCH3,4854,Human,CellAge,Induces
+NOX4,50507,Human,CellAge/CSgene/InnateDB,Induces
+NR2E1,7101,Human,CellAge,Unclear
+NTN4,59277,Human,CellAge/CSgene,Inhibits
+NUAK1,9891,Human,CellAge,Induces
+OTX2,5015,Human,CellAge,Induces
+P3H1,64175,Human,CellAge,Inhibits
+PATZ1,23598,Human,CellAge,Inhibits
+PAK4,10298,Human,CellAge,Induces
+PBRM1,55193,Human,CellAge/CSgene,Induces
+PCGF2,7703,Human,CellAge,Induces
+PDCD10,11235,Human,CellAge,Induces
+PDIK1L,149420,Human,CellAge,Induces
+PDZD2,23037,Human,CellAge,Induces
+PDPK1,5170,Human,CellAge/Ageing atlas,Induces
+PEBP1,5037,Human,CellAge/CSgene,Induces
+PEX19,5824,Human,CellAge,Induces
+PIAS4,51588,Human,CellAge/Ageing atlas/CSgene/InnateDB,Induces
+PIK3R5,23533,Human,CellAge,Induces
+PIK3C2A,5286,Human,CellAge,Unclear
+PIM1,5292,Human,CellAge/CSgene,Induces
+PLA2R1,22925,Human,CellAge/CSgene,Induces
+PKM,5315,Human,CellAge,Induces
+PML,5371,Human,CellAge/Ageing atlas/CSgene/InnateDB,Induces
+PNPT1,87178,Human,CellAge/CSgene,Induces
+PMVK,10654,Human,CellAge,Induces
+POT1,25913,Human,CellAge/CSgene,Inhibits
+POU5F1,5460,Human,CellAge,Induces
+PPM1B,5495,Human,CellAge,Inhibits
+PPM1D,8493,Human,CellAge/Ageing atlas/CSgene,Inhibits
+PRMT6,55170,Human,CellAge,Inhibits
+PRKCH,5583,Human,CellAge,Induces
+PRKCD,5580,Human,CellAge/Ageing atlas/CSgene/InnateDB,Induces
+PROX1,5629,Human,CellAge/CSgene,Induces
+PRPF19,27339,Human,CellAge,Inhibits
+PSMB5,5693,Human,CellAge/CSgene,Inhibits
+PTRF,284119,Human,CellAge/CSgene,Induces
+PTTG1,9232,Human,CellAge,Induces
+PSMD14,10213,Human,CellAge/CSgene,Inhibits
+RAD21,5885,Human,CellAge/InnateDB,Inhibits
+RAF1,5894,Human,CellAge/CSgene,Induces
+RB1,5925,Human,CellAge/Ageing atlas/CSgene/InnateDB,Induces
+RBP2,5948,Human,CellAge/CSgene,Inhibits
+RBX1,9978,Human,CellAge/CSgene,Inhibits
+RNASEL,6041,Human,CellAge/InnateDB,Induces
+RPS6KA6,27330,Human,CellAge/CSgene,Induces
+RSL1D1,26156,Human,CellAge,Inhibits
+RUNX1,861,Human,CellAge,Induces
+RUVBL2,10856,Human,CellAge,Inhibits
+SENP1,29843,Human,CellAge/CSgene,Inhibits
+SENP2,59343,Human,CellAge/InnateDB,Inhibits
+SENP7,57337,Human,CellAge,Inhibits
+SERPINE1,5054,Human,CellAge/Ageing atlas/InnateDB,Induces
+SFN,2810,Human,CellAge,Induces
+SIK1,150094,Human,CellAge,Induces
+SGK1,6446,Human,CellAge,Inhibits
+SIN3B,23309,Human,CellAge,Induces
+SIRT1,23411,Human,CellAge/Ageing atlas/CSgene/InnateDB,Inhibits
+SIRT6,51548,Human,CellAge/Ageing atlas/CSgene,Inhibits
+SIX1,6495,Human,CellAge,Inhibits
+SLC13A3,64849,Human,CellAge/CSgene,Induces
+SLC16A7,9194,Human,CellAge/CSgene,Inhibits
+SMARCA4,6597,Human,CellAge/InnateDB,Inhibits
+SMG1,23049,Human,CellAge,Inhibits
+SMARCB1,6598,Human,CellAge/CSgene,Induces
+SMURF2,64750,Human,CellAge/CSgene,Induces
+SNAI1,6615,Human,CellAge/CSgene,Inhibits
+SOCS1,8651,Human,CellAge/InnateDB,Induces
+SOD1,6647,Human,CellAge/Ageing atlas,Inhibits
+SORBS2,8470,Human,CellAge,Induces
+SOX2,6657,Human,CellAge,Induces
+SPIN1,10927,Human,CellAge,Induces
+SOX5,6660,Human,CellAge/CSgene,Induces
+SP1,6667,Human,CellAge/Ageing atlas/CSgene,Induces
+SPOP,8405,Human,CellAge,Induces
+SRC,6714,Human,CellAge/InnateDB,Inhibits
+SREBF1,6720,Human,CellAge/CSgene/InnateDB,Induces
+SRSF1,6426,Human,CellAge/CSgene,Induces
+STAT5B,6777,Human,CellAge/Ageing atlas/InnateDB,Induces
+STK32C,282974,Human,CellAge,Induces
+STK40,83931,Human,CellAge,Induces
+SUPT5H,6829,Human,CellAge,Inhibits
+SYK,6850,Human,CellAge/Ageing atlas/InnateDB,Induces
+TACC3,10460,Human,CellAge,Inhibits
+TERC,7012,Human,CellAge/Ageing atlas,Inhibits
+TBX2,6909,Human,CellAge/CSgene,Inhibits
+TERF2,7014,Human,CellAge/Ageing atlas/CSgene,Inhibits
+TERT,7015,Human,CellAge/Ageing atlas/CSgene,Inhibits
+TFAP4,7023,Human,CellAge,Induces
+TFDP1,7027,Human,CellAge/Ageing atlas/CSgene,Inhibits
+TGFB1I1,7041,Human,CellAge,Induces
+TLR3,7098,Human,CellAge/InnateDB,Induces
+TMSB4X,7114,Human,CellAge,Inhibits
+TNFSF13,8741,Human,CellAge/CSgene,Inhibits
+TNFSF15,9966,Human,CellAge,Induces
+TOP1,7150,Human,CellAge/Ageing atlas/CSgene,Induces
+TP63,8626,Human,CellAge/Ageing atlas/CSgene/InnateDB,Induces
+TPR,7175,Human,CellAge,Inhibits
+TP53,7157,Human,CellAge/Ageing atlas/CSgene/InnateDB,Induces
+TRIM28,10155,Human,CellAge/InnateDB,Induces
+TRPM8,79054,Human,CellAge,Inhibits
+TXN,7295,Human,CellAge/Ageing atlas/CSgene,Inhibits
+TXNIP,10628,Human,CellAge/InnateDB,Induces
+UBTD1,80019,Human,CellAge,Induces
+TYK2,7297,Human,CellAge/InnateDB,Induces
+VENTX,27287,Human,CellAge/InnateDB,Induces
+USP1,7398,Human,CellAge,Inhibits
+VEGFA,7422,Human,CellAge/Ageing atlas/InnateDB,Inhibits
+WNT16,51384,Human,CellAge/CSgene,Induces
+WNT2,7472,Human,CellAge/Ageing atlas,Inhibits
+WRN,7486,Human,CellAge/Ageing atlas/CSgene,Inhibits
+WT1,7490,Human,CellAge,Inhibits
+XAF1,54739,Human,CellAge,Induces
+WWP1,11059,Human,CellAge,Inhibits
+YAP1,10413,Human,CellAge,Inhibits
+YPEL3,83719,Human,CellAge/CSgene,Induces
+ZFP36,7538,Human,CellAge,Induces
+ZMAT3,64393,Human,CellAge/CSgene,Inhibits
+ZNF148,7707,Human,CellAge/CSgene,Inhibits
+IL2RB,3560,Human,Ageing atlas/InnateDB,Unknown
+PSAT1,29968,Human,Ageing atlas,Unknown
+A2M,2,Human,Ageing atlas,Unknown
+AARS1,16,Human,Ageing atlas,Unknown
+ABL1,25,Human,Ageing atlas/InnateDB,Unknown
+ADCY1,107,Human,Ageing atlas,Unknown
+ADCY2,108,Human,Ageing atlas,Unknown
+ADCY3,109,Human,Ageing atlas,Unknown
+ADCY4,196883,Human,Ageing atlas,Unknown
+ADCY5,111,Human,Ageing atlas,Unknown
+ADCY6,112,Human,Ageing atlas,Unknown
+ADCY7,113,Human,Ageing atlas,Unknown
+ADCY8,114,Human,Ageing atlas/InnateDB,Unknown
+ADCY9,115,Human,Ageing atlas,Unknown
+ADH1B,125,Human,Ageing atlas,Unknown
+ADH5,128,Human,Ageing atlas,Unknown
+ADIPOQ,9370,Human,Ageing atlas/InnateDB,Unknown
+ADIPOR1,51094,Human,Ageing atlas,Unknown
+ADIPOR2,79602,Human,Ageing atlas,Unknown
+AGPAT2,10555,Human,Ageing atlas,Unknown
+AGTR1,185,Human,Ageing atlas,Unknown
+AIFM1,9131,Human,Ageing atlas,Unknown
+AKT1S1,84335,Human,Ageing atlas,Unknown
+AKT2,208,Human,Ageing atlas,Unknown
+AKT3,10000,Human,Ageing atlas,Unknown
+ALDH2,217,Human,Ageing atlas,Unknown
+ALDH9A1,223,Human,Ageing atlas,Unknown
+APEX1,328,Human,Ageing atlas/CSgene,Unknown
+APOC3,345,Human,Ageing atlas,Unknown
+APOE,348,Human,Ageing atlas,Unknown
+APP,351,Human,Ageing atlas,Unknown
+APPL1,26060,Human,Ageing atlas,Unknown
+APTX,54840,Human,Ageing atlas,Unknown
+AREG,374,Human,Ageing atlas,Unknown
+ARHGAP1,392,Human,Ageing atlas,Unknown
+ARNTL,406,Human,Ageing atlas/CSgene,Unknown
+ATF2,1386,Human,Ageing atlas/InnateDB,Unknown
+ATF4,468,Human,Ageing atlas/InnateDB,Unknown
+ATF6B,1388,Human,Ageing atlas,Unknown
+ATG101,60673,Human,Ageing atlas,Unknown
+ATG13,9776,Human,Ageing atlas,Unknown
+ATG5,9474,Human,Ageing atlas/InnateDB,Unknown
+ATP5O,539,Human,Ageing atlas,Unknown
+ATR,545,Human,Ageing atlas,Unknown
+BAK1,578,Human,Ageing atlas,Unknown
+BAX,581,Human,Ageing atlas,Unknown
+BCL10,8915,Human,Ageing atlas/InnateDB,Unknown
+BCL2,596,Human,Ageing atlas/CSgene/InnateDB,Unknown
+BCL2A1,597,Human,Ageing atlas/InnateDB,Unknown
+BCL2L1,598,Human,Ageing atlas/CSgene,Unknown
+BDNF,627,Human,Ageing atlas,Unknown
+BIRC2,329,Human,Ageing atlas/InnateDB,Unknown
+BIRC3,330,Human,Ageing atlas/InnateDB,Unknown
+BLM,641,Human,Ageing atlas,Unknown
+BMP2,650,Human,Ageing atlas,Unknown
+BMP6,654,Human,Ageing atlas,Unknown
+BRCA2,675,Human,Ageing atlas,Unknown
+BSCL2,26580,Human,Ageing atlas,Unknown
+BTK,695,Human,Ageing atlas/InnateDB,Unknown
+BUB1B,701,Human,Ageing atlas/CSgene,Unknown
+BUB3,9184,Human,Ageing atlas,Unknown
+C1QA,712,Human,Ageing atlas/InnateDB,Unknown
+CACNA1A,773,Human,Ageing atlas,Unknown
+CALR,811,Human,Ageing atlas/CSgene,Unknown
+CAMK4,814,Human,Ageing atlas,Unknown
+CAMKK2,10645,Human,Ageing atlas/InnateDB,Unknown
+CARD10,29775,Human,Ageing atlas,Unknown
+CAT,847,Human,Ageing atlas,Unknown
+CCL1,6346,Human,Ageing atlas/InnateDB,Unknown
+CCL13,6357,Human,Ageing atlas,Unknown
+CCL19,6363,Human,Ageing atlas,Unknown
+CCL20,6364,Human,Ageing atlas,Unknown
+CCL21,6366,Human,Ageing atlas,Unknown
+CCL26,10344,Human,Ageing atlas,Unknown
+CCL3,6348,Human,Ageing atlas,Unknown
+CCL4,6351,Human,Ageing atlas,Unknown
+CCL7,6354,Human,Ageing atlas,Unknown
+CCNA2,890,Human,Ageing atlas/CSgene/InnateDB,Unknown
+CD14,929,Human,Ageing atlas/InnateDB,Unknown
+CD40LG,959,Human,Ageing atlas,Unknown
+CD55,1604,Human,Ageing atlas,Unknown
+CD9,928,Human,Ageing atlas,Unknown
+CDC42,998,Human,Ageing atlas/CSgene,Unknown
+CDK7,1022,Human,Ageing atlas,Unknown
+CEBPA,1050,Human,Ageing atlas,Unknown
+CETP,1071,Human,Ageing atlas,Unknown
+CFLAR,8837,Human,Ageing atlas/InnateDB,Unknown
+CHCHD2,51142,Human,Ageing atlas,Unknown
+CHEK2,11200,Human,Ageing atlas,Unknown
+CISD2,493856,Human,Ageing atlas,Unknown
+CLOCK,9575,Human,Ageing atlas,Unknown
+CLU,1191,Human,Ageing atlas/CSgene,Unknown
+CNR1,1268,Human,Ageing atlas,Unknown
+COQ7,10229,Human,Ageing atlas,Unknown
+CREB1,1385,Human,Ageing atlas/InnateDB,Unknown
+CREB3,10488,Human,Ageing atlas,Unknown
+CREB3L1,90993,Human,Ageing atlas,Unknown
+CREB3L2,64764,Human,Ageing atlas,Unknown
+CREB3L3,84699,Human,Ageing atlas,Unknown
+CREB3L4,148327,Human,Ageing atlas,Unknown
+CREB5,9586,Human,Ageing atlas,Unknown
+CREBBP,1387,Human,Ageing atlas,Unknown
+CSF2RB,1439,Human,Ageing atlas/InnateDB,Unknown
+CSNK1E,1454,Human,Ageing atlas,Unknown
+CTF1,1489,Human,Ageing atlas,Unknown
+CTGF,1490,Human,Ageing atlas,Unknown
+CTNNB1,1499,Human,Ageing atlas/InnateDB,Unknown
+CXCL12,6387,Human,Ageing atlas/InnateDB,Unknown
+CXCL2,2920,Human,Ageing atlas/InnateDB,Unknown
+CXCL5,6374,Human,Ageing atlas,Unknown
+CXCL6,6372,Human,Ageing atlas,Unknown
+CYCS,54205,Human,Ageing atlas,Unknown
+DBN1,1627,Human,Ageing atlas,Unknown
+DCTN1,1639,Human,Ageing atlas,Unknown
+DDIT3,1649,Human,Ageing atlas/InnateDB,Unknown
+DDX58,23586,Human,Ageing atlas/InnateDB,Unknown
+DGAT1,8694,Human,Ageing atlas,Unknown
+DLAT,1737,Human,Ageing atlas,Unknown
+DLL3,10683,Human,Ageing atlas,Unknown
+EDARADD,128178,Human,Ageing atlas,Unknown
+EEF1A1,1915,Human,Ageing atlas/CSgene,Unknown
+EEF1E1,9521,Human,Ageing atlas,Unknown
+EEF2,1938,Human,Ageing atlas,Unknown
+EFEMP1,2202,Human,Ageing atlas,Unknown
+EGF,1950,Human,Ageing atlas,Unknown
+EGFR,1956,Human,Ageing atlas/CSgene/InnateDB,Unknown
+EGR1,1958,Human,Ageing atlas/CSgene/InnateDB,Unknown
+EHMT1,79813,Human,Ageing atlas/CSgene,Unknown
+EHMT2,10919,Human,Ageing atlas/CSgene/InnateDB,Unknown
+EIF4E,1977,Human,Ageing atlas/InnateDB,Unknown
+EIF4E1B,253314,Human,Ageing atlas,Unknown
+EIF4E2,9470,Human,Ageing atlas,Unknown
+EIF4EBP1,1978,Human,Ageing atlas,Unknown
+EIF5A2,56648,Human,Ageing atlas,Unknown
+ELN,2006,Human,Ageing atlas/CSgene,Unknown
+EMD,2010,Human,Ageing atlas,Unknown
+ENO1,2023,Human,Ageing atlas,Unknown
+ENO2,2026,Human,Ageing atlas,Unknown
+EP300,2033,Human,Ageing atlas,Unknown
+EPOR,2057,Human,Ageing atlas/InnateDB,Unknown
+EPS8,2059,Human,Ageing atlas/InnateDB,Unknown
+ERBB2,2064,Human,Ageing atlas/CSgene,Unknown
+ERCC1,2067,Human,Ageing atlas,Unknown
+ERCC2,2068,Human,Ageing atlas,Unknown
+ERCC3,2071,Human,Ageing atlas,Unknown
+ERCC4,2072,Human,Ageing atlas,Unknown
+ERCC5,2073,Human,Ageing atlas,Unknown
+ERCC6,2074,Human,Ageing atlas,Unknown
+ERCC8,1161,Human,Ageing atlas,Unknown
+ESR1,2099,Human,Ageing atlas,Unknown
+FADS1,3992,Human,Ageing atlas,Unknown
+FAS,355,Human,Ageing atlas,Unknown
+FBP1,2203,Human,Ageing atlas,Unknown
+FEN1,2237,Human,Ageing atlas,Unknown
+FGF21,26291,Human,Ageing atlas,Unknown
+FGF23,8074,Human,Ageing atlas,Unknown
+FGF7,2252,Human,Ageing atlas/InnateDB,Unknown
+FGFR1,2260,Human,Ageing atlas,Unknown
+FGFR3,2261,Human,Ageing atlas,Unknown
+FLT1,2321,Human,Ageing atlas,Unknown
+FOXL2,668,Human,Ageing atlas,Unknown
+FOXO1,2308,Human,Ageing atlas/CSgene,Unknown
+FOXO4,4303,Human,Ageing atlas,Unknown
+GCK,2645,Human,Ageing atlas,Unknown
+GCLC,2729,Human,Ageing atlas,Unknown
+GCLM,2730,Human,Ageing atlas,Unknown
+GDF11,10220,Human,Ageing atlas,Unknown
+GDF15,9518,Human,Ageing atlas,Unknown
+GH1,2688,Human,Ageing atlas,Unknown
+GHR,2690,Human,Ageing atlas,Unknown
+GHRH,2691,Human,Ageing atlas,Unknown
+GHRHR,2692,Human,Ageing atlas,Unknown
+GPX1,2876,Human,Ageing atlas,Unknown
+GPX4,2879,Human,Ageing atlas,Unknown
+GRB2,2885,Human,Ageing atlas,Unknown
+GRIA2,2891,Human,Ageing atlas,Unknown
+GRN,2896,Human,Ageing atlas/InnateDB,Unknown
+GSK3A,2931,Human,Ageing atlas/InnateDB,Unknown
+GSK3B,2932,Human,Ageing atlas/CSgene/InnateDB,Unknown
+GSR,2936,Human,Ageing atlas,Unknown
+GSS,2937,Human,Ageing atlas,Unknown
+GSTA4,2941,Human,Ageing atlas,Unknown
+GSTP1,2950,Human,Ageing atlas/InnateDB,Unknown
+GTF2H2,2966,Human,Ageing atlas,Unknown
+H2AFX,3014,Human,Ageing atlas/CSgene,Unknown
+HBP1,26959,Human,Ageing atlas,Unknown
+HDAC2,3066,Human,Ageing atlas/InnateDB,Unknown
+HDAC3,8841,Human,Ageing atlas,Unknown
+HELLS,3070,Human,Ageing atlas/CSgene,Unknown
+HESX1,8820,Human,Ageing atlas,Unknown
+HGF,3082,Human,Ageing atlas,Unknown
+HIC1,3090,Human,Ageing atlas,Unknown
+HIF1A,3091,Human,Ageing atlas/CSgene/InnateDB,Unknown
+HMGB2,3148,Human,Ageing atlas/InnateDB,Unknown
+HOXB7,3217,Human,Ageing atlas,Unknown
+HOXC4,3221,Human,Ageing atlas,Unknown
+HSF1,3297,Human,Ageing atlas/InnateDB,Unknown
+HSP90AA1,3320,Human,Ageing atlas/InnateDB,Unknown
+HSPA1A,3303,Human,Ageing atlas/CSgene/InnateDB,Unknown
+HSPA1B,3304,Human,Ageing atlas,Unknown
+HSPA8,3312,Human,Ageing atlas,Unknown
+HSPA9,3313,Human,Ageing atlas/CSgene,Unknown
+HSPD1,3329,Human,Ageing atlas/InnateDB,Unknown
+HTRA2,27429,Human,Ageing atlas,Unknown
+HTT,3064,Human,Ageing atlas,Unknown
+IFNB1,3456,Human,Ageing atlas/InnateDB,Unknown
+IGF1,3479,Human,Ageing atlas/CSgene/InnateDB,Unknown
+IGF1R,3480,Human,Ageing atlas/CSgene/InnateDB,Unknown
+IGF2,3481,Human,Ageing atlas,Unknown
+IGFBP2,3485,Human,Ageing atlas,Unknown
+IKBKB,3551,Human,Ageing atlas/InnateDB,Unknown
+IKBKG,8517,Human,Ageing atlas/InnateDB,Unknown
+IL15,3600,Human,Ageing atlas/CSgene/InnateDB,Unknown
+IL1B,3553,Human,Ageing atlas/InnateDB,Unknown
+IL1R1,3554,Human,Ageing atlas/InnateDB,Unknown
+IL2,3558,Human,Ageing atlas/InnateDB,Unknown
+IL2RG,3561,Human,Ageing atlas/InnateDB,Unknown
+IL6,3569,Human,Ageing atlas/CSgene/InnateDB,Unknown
+IL6ST,3572,Human,Ageing atlas/InnateDB,Unknown
+IL7,3574,Human,Ageing atlas,Unknown
+IL7R,3575,Human,Ageing atlas/InnateDB,Unknown
+INS,3630,Human,Ageing atlas,Unknown
+INSR,3643,Human,Ageing atlas,Unknown
+IRS1,3667,Human,Ageing atlas/CSgene,Unknown
+IRS2,8660,Human,Ageing atlas,Unknown
+IRS4,728340,Human,Ageing atlas,Unknown
+ITGA2,3673,Human,Ageing atlas,Unknown
+JAK2,3717,Human,Ageing atlas/CSgene/InnateDB,Unknown
+JUN,3725,Human,Ageing atlas/CSgene/InnateDB,Unknown
+JUND,3727,Human,Ageing atlas,Unknown
+KCNA3,3738,Human,Ageing atlas,Unknown
+KCNAB3,9196,Human,Ageing atlas,Unknown
+KRAS,8471,Human,Ageing atlas,Unknown
+LEP,3952,Human,Ageing atlas/InnateDB,Unknown
+LEPR,3953,Human,Ageing atlas,Unknown
+LMNA,4000,Human,Ageing atlas/CSgene,Unknown
+LMNB1,4001,Human,Ageing atlas/CSgene,Unknown
+LRP2,4036,Human,Ageing atlas,Unknown
+MAP3K14,9020,Human,Ageing atlas/InnateDB,Unknown
+MAP3K5,4217,Human,Ageing atlas/CSgene/InnateDB,Unknown
+MAPK3,5595,Human,Ageing atlas/CSgene,Unknown
+MAPK8,5599,Human,Ageing atlas/CSgene/InnateDB,Unknown
+MAPK9,5601,Human,Ageing atlas/CSgene/InnateDB,Unknown
+MAPT,4137,Human,Ageing atlas,Unknown
+MAX,4149,Human,Ageing atlas,Unknown
+MDM2,4193,Human,Ageing atlas/CSgene,Unknown
+MED1,5469,Human,Ageing atlas,Unknown
+MIF,4282,Human,Ageing atlas/CSgene/InnateDB,Unknown
+MLH1,4292,Human,Ageing atlas,Unknown
+MMP1,4312,Human,Ageing atlas,Unknown
+MMP10,4319,Human,Ageing atlas,Unknown
+MMP12,4321,Human,Ageing atlas/InnateDB,Unknown
+MMP13,4322,Human,Ageing atlas,Unknown
+MMP14,4323,Human,Ageing atlas,Unknown
+MMP2,4313,Human,Ageing atlas,Unknown
+MMP3,4314,Human,Ageing atlas,Unknown
+MMP7,4316,Human,Ageing atlas/CSgene/InnateDB,Unknown
+MSRA,4482,Human,Ageing atlas,Unknown
+MT-CO1,4512,Human,Ageing atlas,Unknown
+MT1E,4493,Human,Ageing atlas,Unknown
+MTOR,2475,Human,Ageing atlas/CSgene/InnateDB,Unknown
+MXD1,4084,Human,Ageing atlas/CSgene,Unknown
+MXI1,4601,Human,Ageing atlas,Unknown
+MYD88,4615,Human,Ageing atlas/InnateDB,Unknown
+NBN,4683,Human,Ageing atlas/CSgene,Unknown
+NCOR1,9611,Human,Ageing atlas,Unknown
+NCOR2,9612,Human,Ageing atlas,Unknown
+NFE2L1,4779,Human,Ageing atlas,Unknown
+NFKB1,4790,Human,Ageing atlas/CSgene/InnateDB,Unknown
+NFKB2,4791,Human,Ageing atlas/InnateDB,Unknown
+NFKBIA,4792,Human,Ageing atlas/InnateDB,Unknown
+NGF,4803,Human,Ageing atlas,Unknown
+NGFR,4804,Human,Ageing atlas,Unknown
+NLRP3,114548,Human,Ageing atlas/InnateDB,Unknown
+NOG,9241,Human,Ageing atlas,Unknown
+NR3C1,2908,Human,Ageing atlas/InnateDB,Unknown
+NRAS,4893,Human,Ageing atlas/InnateDB,Unknown
+NRG1,3084,Human,Ageing atlas,Unknown
+NUDT1,4521,Human,Ageing atlas,Unknown
+PAPPA,5069,Human,Ageing atlas,Unknown
+PARP1,142,Human,Ageing atlas/CSgene,Unknown
+PCK1,5105,Human,Ageing atlas,Unknown
+PCMT1,5110,Human,Ageing atlas,Unknown
+PCNA,5111,Human,Ageing atlas/CSgene,Unknown
+PDGFB,5155,Human,Ageing atlas/CSgene,Unknown
+PDGFRA,5156,Human,Ageing atlas,Unknown
+PDGFRB,5159,Human,Ageing atlas,Unknown
+PECAM1,5175,Human,Ageing atlas,Unknown
+PEX5,5830,Human,Ageing atlas,Unknown
+PIDD1,55367,Human,Ageing atlas,Unknown
+PIGF,5281,Human,Ageing atlas,Unknown
+PIK3CA,5290,Human,Ageing atlas/CSgene/InnateDB,Unknown
+PIK3CB,5291,Human,Ageing atlas/InnateDB,Unknown
+PIK3CD,5293,Human,Ageing atlas,Unknown
+PIK3R1,5295,Human,Ageing atlas/InnateDB,Unknown
+PIK3R2,5296,Human,Ageing atlas,Unknown
+PIK3R3,8503,Human,Ageing atlas,Unknown
+PIN1,5300,Human,Ageing atlas/CSgene/InnateDB,Unknown
+PLAU,5328,Human,Ageing atlas,Unknown
+PLAUR,5329,Human,Ageing atlas/CSgene/InnateDB,Unknown
+PLCG1,5335,Human,Ageing atlas,Unknown
+PLCG2,5336,Human,Ageing atlas/InnateDB,Unknown
+PMCH,5367,Human,Ageing atlas,Unknown
+POLA1,5422,Human,Ageing atlas,Unknown
+POLB,5423,Human,Ageing atlas,Unknown
+POLD1,5424,Human,Ageing atlas,Unknown
+POLG,5428,Human,Ageing atlas,Unknown
+PON1,5444,Human,Ageing atlas,Unknown
+POU1F1,5449,Human,Ageing atlas,Unknown
+PPARA,5465,Human,Ageing atlas,Unknown
+PPARG,5468,Human,Ageing atlas/CSgene/InnateDB,Unknown
+PPARGC1A,10891,Human,Ageing atlas/InnateDB,Unknown
+PPP1CA,5499,Human,Ageing atlas/InnateDB,Unknown
+PRDX1,5052,Human,Ageing atlas,Unknown
+PRKAA1,5562,Human,Ageing atlas,Unknown
+PRKAA2,5563,Human,Ageing atlas/CSgene,Unknown
+PRKAB1,5564,Human,Ageing atlas,Unknown
+PRKAB2,5565,Human,Ageing atlas,Unknown
+PRKACA,5566,Human,Ageing atlas/InnateDB,Unknown
+PRKACB,5567,Human,Ageing atlas,Unknown
+PRKACG,5568,Human,Ageing atlas,Unknown
+PRKAG1,5571,Human,Ageing atlas,Unknown
+PRKAG2,51422,Human,Ageing atlas,Unknown
+PRKAG3,53632,Human,Ageing atlas,Unknown
+PRKCA,5578,Human,Ageing atlas/InnateDB,Unknown
+PRKCB,5579,Human,Ageing atlas,Unknown
+PRKCQ,5588,Human,Ageing atlas,Unknown
+PRKDC,5591,Human,Ageing atlas/CSgene/InnateDB,Unknown
+PROP1,5626,Human,Ageing atlas,Unknown
+PSEN1,5663,Human,Ageing atlas,Unknown
+PTEN,5728,Human,Ageing atlas/CSgene/InnateDB,Unknown
+PTGES,9536,Human,Ageing atlas/InnateDB,Unknown
+PTGS2,5743,Human,Ageing atlas/InnateDB,Unknown
+PTK2,5747,Human,Ageing atlas/InnateDB,Unknown
+PTK2B,2185,Human,Ageing atlas/InnateDB,Unknown
+PTPN1,5770,Human,Ageing atlas,Unknown
+PTPN11,5781,Human,Ageing atlas/InnateDB,Unknown
+PYCR1,5831,Human,Ageing atlas,Unknown
+RACK1,10399,Human,Ageing atlas,Unknown
+RAD27,853747,Human,Ageing atlas,Unknown
+RAD51,5888,Human,Ageing atlas,Unknown
+RAD52,5893,Human,Ageing atlas,Unknown
+RAE1,8480,Human,Ageing atlas,Unknown
+RB1CC1,9821,Human,Ageing atlas,Unknown
+RECQL4,9401,Human,Ageing atlas/CSgene,Unknown
+RELA,5970,Human,Ageing atlas/CSgene/InnateDB,Unknown
+RELB,5971,Human,Ageing atlas/InnateDB,Unknown
+RET,5979,Human,Ageing atlas,Unknown
+RFC4,5984,Human,Ageing atlas,Unknown
+RGN,9104,Human,Ageing atlas,Unknown
+RHEB,6009,Human,Ageing atlas/InnateDB,Unknown
+RICTOR,253260,Human,Ageing atlas/InnateDB,Unknown
+RIPK1,8737,Human,Ageing atlas/InnateDB,Unknown
+RORA,6095,Human,Ageing atlas/InnateDB,Unknown
+RPA1,6117,Human,Ageing atlas,Unknown
+RPS6KA5,9252,Human,Ageing atlas/InnateDB,Unknown
+RPS6KB1,6198,Human,Ageing atlas,Unknown
+RPS6KB2,6199,Human,Ageing atlas,Unknown
+RPTOR,57521,Human,Ageing atlas,Unknown
+S100B,6285,Human,Ageing atlas,Unknown
+SDHC,6391,Human,Ageing atlas,Unknown
+SERPINB2,5055,Human,Ageing atlas,Unknown
+SESN1,27244,Human,Ageing atlas,Unknown
+SESN2,83667,Human,Ageing atlas,Unknown
+SESN3,143686,Human,Ageing atlas,Unknown
+SHC1,6464,Human,Ageing atlas/CSgene,Unknown
+SIN3A,25942,Human,Ageing atlas,Unknown
+SIRT3,23410,Human,Ageing atlas/CSgene,Unknown
+SIRT7,51547,Human,Ageing atlas,Unknown
+SLC13A1,6561,Human,Ageing atlas,Unknown
+SNCG,6623,Human,Ageing atlas,Unknown
+SOCS2,8835,Human,Ageing atlas/InnateDB,Unknown
+SOD2,6648,Human,Ageing atlas/CSgene,Unknown
+SPRTN,83932,Human,Ageing atlas,Unknown
+SQSTM1,8878,Human,Ageing atlas/InnateDB,Unknown
+SST,6750,Human,Ageing atlas,Unknown
+SSTR3,6753,Human,Ageing atlas,Unknown
+STAT3,6774,Human,Ageing atlas/CSgene/InnateDB,Unknown
+STAT5A,6776,Human,Ageing atlas/InnateDB,Unknown
+STK11,6794,Human,Ageing atlas,Unknown
+STUB1,10273,Human,Ageing atlas/InnateDB,Unknown
+SUMO1,7341,Human,Ageing atlas,Unknown
+SUN1,23353,Human,Ageing atlas/CSgene,Unknown
+TAB1,10454,Human,Ageing atlas,Unknown
+TAB2,23118,Human,Ageing atlas,Unknown
+TAF1,6872,Human,Ageing atlas,Unknown
+TBP,6908,Human,Ageing atlas,Unknown
+TCF3,6929,Human,Ageing atlas/CSgene,Unknown
+TERF1,7013,Human,Ageing atlas/CSgene,Unknown
+TFAP2A,7020,Human,Ageing atlas,Unknown
+TGFB1,7040,Human,Ageing atlas/CSgene,Unknown
+TICAM1,148022,Human,Ageing atlas/InnateDB,Unknown
+TIMP1,7076,Human,Ageing atlas,Unknown
+TIMP2,7077,Human,Ageing atlas,Unknown
+TIRAP,114609,Human,Ageing atlas/InnateDB,Unknown
+TLR4,7099,Human,Ageing atlas/InnateDB,Unknown
+TMEM67,91147,Human,Ageing atlas,Unknown
+TNF,7124,Human,Ageing atlas/CSgene/InnateDB,Unknown
+TNFAIP3,7128,Human,Ageing atlas/InnateDB,Unknown
+TNFRSF10C,8794,Human,Ageing atlas,Unknown
+TNFRSF11A,8792,Human,Ageing atlas,Unknown
+TNFRSF11B,4982,Human,Ageing atlas,Unknown
+TNFRSF13C,115650,Human,Ageing atlas,Unknown
+TNFRSF1A,7132,Human,Ageing atlas/InnateDB,Unknown
+TNFRSF1B,7133,Human,Ageing atlas/InnateDB,Unknown
+TNFSF11,8600,Human,Ageing atlas/InnateDB,Unknown
+TNFSF13B,10673,Human,Ageing atlas,Unknown
+TNFSF14,8740,Human,Ageing atlas,Unknown
+TOP2A,7153,Human,Ageing atlas,Unknown
+TOP2B,7155,Human,Ageing atlas,Unknown
+TOP3B,8940,Human,Ageing atlas,Unknown
+TOPORS,10210,Human,Ageing atlas,Unknown
+TP53BP1,7158,Human,Ageing atlas,Unknown
+TP73,7161,Human,Ageing atlas/CSgene/InnateDB,Unknown
+TPP2,7174,Human,Ageing atlas/InnateDB,Unknown
+TRADD,8717,Human,Ageing atlas/InnateDB,Unknown
+TRAF1,7185,Human,Ageing atlas/InnateDB,Unknown
+TRAF2,7186,Human,Ageing atlas/InnateDB,Unknown
+TRAF3,7187,Human,Ageing atlas/InnateDB,Unknown
+TRAF6,7189,Human,Ageing atlas/InnateDB,Unknown
+TRAP1,10131,Human,Ageing atlas,Unknown
+TRIM25,7706,Human,Ageing atlas/InnateDB,Unknown
+TRPS1,7227,Human,Ageing atlas,Unknown
+TRPV1,7442,Human,Ageing atlas,Unknown
+TSC1,7248,Human,Ageing atlas/InnateDB,Unknown
+TSC2,7249,Human,Ageing atlas,Unknown
+UBB,7314,Human,Ageing atlas/CSgene,Unknown
+UBE2I,7329,Human,Ageing atlas,Unknown
+UCHL1,7345,Human,Ageing atlas/InnateDB,Unknown
+UCP1,7350,Human,Ageing atlas,Unknown
+UCP2,7351,Human,Ageing atlas/InnateDB,Unknown
+UCP3,7352,Human,Ageing atlas,Unknown
+ULK1,8408,Human,Ageing atlas/InnateDB,Unknown
+VCAM1,7412,Human,Ageing atlas,Unknown
+VCP,7415,Human,Ageing atlas,Unknown
+VEGFC,7424,Human,Ageing atlas/InnateDB,Unknown
+XIAP,331,Human,Ageing atlas/InnateDB,Unknown
+XPA,7507,Human,Ageing atlas,Unknown
+XRCC5,7520,Human,Ageing atlas/InnateDB,Unknown
+XRCC6,2547,Human,Ageing atlas/InnateDB,Unknown
+YWHAZ,7534,Human,Ageing atlas,Unknown
+ZAP70,7535,Human,Ageing atlas,Unknown
+ZMPSTE24,10269,Human,Ageing atlas/CSgene,Unknown
+CCNE1,898,Human,CSgene,Unknown
+CCNA1,8900,Human,CSgene,Unknown
+CBX4,8535,Human,CSgene,Unknown
+SRF,6722,Human,CSgene,Unknown
+MAP2K4,6416,Human,CSgene/InnateDB,Unknown
+MAPK1,5594,Human,CSgene/InnateDB,Unknown
+OPA1,4976,Human,CSgene,Unknown
+IGFBP7,3490,Human,CSgene,Unknown
+KDM6B,23135,Human,CSgene,Unknown
+E2F3,1871,Human,CSgene,Unknown
+CDKN2D,1032,Human,CSgene,Unknown
+CDK2,1017,Human,CSgene,Unknown
+CDC27,996,Human,CSgene,Unknown
+MAML1,9794,Human,CSgene,Unknown
+CD44,960,Human,CSgene,Unknown
+MAD2L1BP,9587,Human,CSgene,Unknown
+MAP4K4,9448,Human,CSgene,Unknown
+AIM2,9447,Human,CSgene/InnateDB,Unknown
+ARHGAP18,93663,Human,CSgene,Unknown
+MAPKAPK2,9261,Human,CSgene/InnateDB,Unknown
+AURKB,9212,Human,CSgene,Unknown
+CCNE2,9134,Human,CSgene,Unknown
+HIST1H2BJ,8970,Human,CSgene,Unknown
+HIST1H3F,8968,Human,CSgene,Unknown
+MCM3AP,8888,Human,CSgene,Unknown
+CDC16,8881,Human,CSgene,Unknown
+TSC22D1,8848,Human,CSgene,Unknown
+CBS,875,Human,CSgene,Unknown
+EED,8726,Human,CSgene,Unknown
+CDC23,8697,Human,CSgene,Unknown
+RNASET2,8635,Human,CSgene,Unknown
+MKNK1,8569,Human,CSgene/InnateDB,Unknown
+TSLP,85480,Human,CSgene,Unknown
+HIST1H2BK,85236,Human,CSgene,Unknown
+HAVCR2,84868,Human,CSgene/InnateDB,Unknown
+CBX2,84733,Human,CSgene,Unknown
+KDM2B,84678,Human,CSgene,Unknown
+C2orf40,84417,Human,CSgene,Unknown
+HIST2H4A,8370,Human,CSgene,Unknown
+HIST1H4L,8368,Human,CSgene,Unknown
+HIST1H4E,8367,Human,CSgene,Unknown
+HIST1H4B,8366,Human,CSgene,Unknown
+HIST1H4H,8365,Human,CSgene,Unknown
+HIST1H4C,8364,Human,CSgene,Unknown
+HIST1H4J,8363,Human,CSgene,Unknown
+HIST1H4K,8362,Human,CSgene,Unknown
+HIST1H4F,8361,Human,CSgene,Unknown
+HIST1H4D,8360,Human,CSgene,Unknown
+HIST1H4A,8359,Human,CSgene,Unknown
+HIST1H3B,8358,Human,CSgene,Unknown
+HIST1H3H,8357,Human,CSgene,Unknown
+HIST1H3J,8356,Human,CSgene,Unknown
+HIST1H3G,8355,Human,CSgene,Unknown
+HIST1H3I,8354,Human,CSgene,Unknown
+HIST1H3E,8353,Human,CSgene,Unknown
+HIST1H3C,8352,Human,CSgene,Unknown
+HIST1H3D,8351,Human,CSgene,Unknown
+HIST1H3A,8350,Human,CSgene,Unknown
+HIST2H2BE,8349,Human,CSgene,Unknown
+HIST1H2BO,8348,Human,CSgene,Unknown
+HIST1H2BC,8347,Human,CSgene,Unknown
+HIST1H2BI,8346,Human,CSgene,Unknown
+HIST1H2BH,8345,Human,CSgene,Unknown
+HIST1H2BE,8344,Human,CSgene,Unknown
+HIST1H2BF,8343,Human,CSgene,Unknown
+HIST1H2BM,8342,Human,CSgene,Unknown
+HIST1H2BN,8341,Human,CSgene,Unknown
+HIST1H2BL,8340,Human,CSgene,Unknown
+HIST1H2BG,8339,Human,CSgene,Unknown
+HIST2H2AC,8338,Human,CSgene,Unknown
+HIST2H2AA3,8337,Human,CSgene,Unknown
+HIST1H2AB,8335,Human,CSgene,Unknown
+HIST1H2AC,8334,Human,CSgene,Unknown
+HIST1H2AJ,8331,Human,CSgene,Unknown
+HIST1H4I,8294,Human,CSgene,Unknown
+HIST3H3,8290,Human,CSgene,Unknown
+HMGA2,8091,Human,CSgene,Unknown
+PHC3,80012,Human,CSgene,Unknown
+KAT6A,7994,Human,CSgene,Unknown
+SMC6,79677,Human,CSgene,Unknown
+AIMP2,7965,Human,CSgene,Unknown
+CALCA,796,Human,CSgene/InnateDB,Unknown
+MAPKAPK3,7867,Human,CSgene,Unknown
+YY1,7528,Human,CSgene/InnateDB,Unknown
+WNT5A,7474,Human,CSgene,Unknown
+NR1H2,7376,Human,CSgene,Unknown
+UBE3A,7337,Human,CSgene,Unknown
+UBE2E1,7324,Human,CSgene,Unknown
+UBE2D1,7321,Human,CSgene,Unknown
+UBC,7316,Human,CSgene,Unknown
+UBA52,7311,Human,CSgene,Unknown
+CDC26P1,729948,Human,CSgene,Unknown
+TYMS,7298,Human,CSgene,Unknown
+TWIST1,7291,Human,CSgene,Unknown
+HIRA,7290,Human,CSgene,Unknown
+RPS27AP11,728590,Human,CSgene,Unknown
+HIST2H2AA4,723790,Human,CSgene,Unknown
+TGFB2,7042,Human,CSgene,Unknown
+BUB1,699,Human,CSgene,Unknown
+TBX3,6926,Human,CSgene,Unknown
+TAGLN,6876,Human,CSgene,Unknown
+STAT6,6778,Human,CSgene/InnateDB,Unknown
+STAT1,6772,Human,CSgene/InnateDB,Unknown
+SMARCA2,6595,Human,CSgene/InnateDB,Unknown
+HIST2H3D,653604,Human,CSgene,Unknown
+PHC1P1,653441,Human,CSgene,Unknown
+ACD,65057,Human,CSgene,Unknown
+SKIL,6498,Human,CSgene,Unknown
+LOC649620,649620,Human,CSgene,Unknown
+LOC647654,647654,Human,CSgene,Unknown
+ANAPC1,64682,Human,CSgene,Unknown
+H3F3AP6,644914,Human,CSgene,Unknown
+RBBP4P1,642954,Human,CSgene,Unknown
+SRSF3,6428,Human,CSgene,Unknown
+SATB1,6304,Human,CSgene,Unknown
+S100A6,6277,Human,CSgene,Unknown
+RXRB,6257,Human,CSgene,Unknown
+RRM2,6241,Human,CSgene,Unknown
+RRM1,6240,Human,CSgene,Unknown
+RPS27A,6233,Human,CSgene,Unknown
+RPS6KA3,6197,Human,CSgene,Unknown
+RPS6KA2,6196,Human,CSgene,Unknown
+RPS6KA1,6195,Human,CSgene,Unknown
+RPL5,6125,Human,CSgene,Unknown
+RNF2,6045,Human,CSgene,Unknown
+RIT1,6016,Human,CSgene,Unknown
+RING1,6015,Human,CSgene,Unknown
+RBL2,5934,Human,CSgene,Unknown
+RBL1,5933,Human,CSgene,Unknown
+RBBP7,5931,Human,CSgene,Unknown
+RBBP4,5928,Human,CSgene,Unknown
+IL21,59067,Human,CSgene/InnateDB,Unknown
+RAN,5901,Human,CSgene,Unknown
+RAC1,5879,Human,CSgene/InnateDB,Unknown
+TNRC6C,57690,Human,CSgene,Unknown
+EP400,57634,Human,CSgene,Unknown
+CNOT6,57472,Human,CSgene,Unknown
+SEPN1,57190,Human,CSgene,Unknown
+BACH1,571,Human,CSgene,Unknown
+PRL,5617,Human,CSgene,Unknown
+MAPK10,5602,Human,CSgene,Unknown
+MAPK11,5600,Human,CSgene,Unknown
+MAPK7,5598,Human,CSgene,Unknown
+RNF114,55905,Human,CSgene,Unknown
+PRKCI,5584,Human,CSgene,Unknown
+MFN1,55669,Human,CSgene/InnateDB,Unknown
+RBM38,55544,Human,CSgene,Unknown
+PRG2,5553,Human,CSgene,Unknown
+HIST2H4B,554313,Human,CSgene,Unknown
+TMEM140,55281,Human,CSgene,Unknown
+PPARD,5467,Human,CSgene,Unknown
+POU2F1,5451,Human,CSgene,Unknown
+TERF2IP,54386,Human,CSgene,Unknown
+H2BFS,54145,Human,CSgene,Unknown
+PLK1,5347,Human,CSgene/InnateDB,Unknown
+PHB,5245,Human,CSgene,Unknown
+PGR,5241,Human,CSgene,Unknown
+PGD,5226,Human,CSgene,Unknown
+ANAPC11,51529,Human,CSgene,Unknown
+ANAPC7,51434,Human,CSgene,Unknown
+ANAPC5,51433,Human,CSgene,Unknown
+FZR1,51343,Human,CSgene,Unknown
+ZBTB7A,51341,Human,CSgene,Unknown
+ERGIC2,51290,Human,CSgene,Unknown
+FIS1,51024,Human,CSgene,Unknown
+PAX3,5077,Human,CSgene,Unknown
+MINK1,50488,Human,CSgene,Unknown
+YBX1,4904,Human,CSgene,Unknown
+H2AFB1,474382,Human,CSgene,Unknown
+NDN,4692,Human,CSgene,Unknown
+NCAM1,4684,Human,CSgene,Unknown
+MYBL2,4605,Human,CSgene,Unknown
+MSN,4478,Human,CSgene,Unknown
+ASS1,445,Human,CSgene,Unknown
+LOC441488,441488,Human,CSgene,Unknown
+MRE11A,4361,Human,CSgene,Unknown
+MOV10,4343,Human,CSgene/InnateDB,Unknown
+MAP3K1,4214,Human,CSgene/InnateDB,Unknown
+SMAD9,4093,Human,CSgene,Unknown
+SMAD7,4092,Human,CSgene/InnateDB,Unknown
+SMAD6,4091,Human,CSgene/InnateDB,Unknown
+SMAD5,4090,Human,CSgene,Unknown
+SMAD4,4089,Human,CSgene/InnateDB,Unknown
+SMAD3,4088,Human,CSgene/InnateDB,Unknown
+SMAD2,4087,Human,CSgene,Unknown
+SMAD1,4086,Human,CSgene,Unknown
+MIR34A,407040,Human,CSgene,Unknown
+MIR30A,407029,Human,CSgene,Unknown
+MIR299,407023,Human,CSgene,Unknown
+MIR29A,407021,Human,CSgene/InnateDB,Unknown
+MIR22,407004,Human,CSgene,Unknown
+MIR217,406999,Human,CSgene,Unknown
+MIR21,406991,Human,CSgene/InnateDB,Unknown
+MIR205,406988,Human,CSgene,Unknown
+MIR203A,406986,Human,CSgene/InnateDB,Unknown
+MIR191,406966,Human,CSgene,Unknown
+MIR146A,406938,Human,CSgene/InnateDB,Unknown
+MIR141,406933,Human,CSgene/InnateDB,Unknown
+MIR10B,406903,Human,CSgene/InnateDB,Unknown
+LGALS9,3965,Human,CSgene/InnateDB,Unknown
+RHOA,387,Human,CSgene,Unknown
+KRT5,3852,Human,CSgene,Unknown
+KRAS,3845,Human,CSgene,Unknown
+KIT,3815,Human,CSgene,Unknown
+KIR2DL4,3805,Human,CSgene,Unknown
+IDO1,3620,Human,CSgene/InnateDB,Unknown
+ILF3,3609,Human,CSgene/InnateDB,Unknown
+IL12B,3593,Human,CSgene/InnateDB,Unknown
+CXCR2,3579,Human,CSgene/InnateDB,Unknown
+IL4,3565,Human,CSgene/InnateDB,Unknown
+H3F3AP5,347376,Human,CSgene,Unknown
+IFI16,3428,Human,CSgene/InnateDB,Unknown
+IDH1,3417,Human,CSgene,Unknown
+ID2,3398,Human,CSgene,Unknown
+HIST2H3A,333932,Human,CSgene,Unknown
+BIRC5,332,Human,CSgene/InnateDB,Unknown
+HSPB1,3315,Human,CSgene,Unknown
+HNRNPA1,3178,Human,CSgene,Unknown
+FOXA3,3171,Human,CSgene,Unknown
+FOXA2,3170,Human,CSgene/InnateDB,Unknown
+FOXA1,3169,Human,CSgene,Unknown
+HMGA1,3159,Human,CSgene,Unknown
+ANXA5,308,Human,CSgene,Unknown
+H3F3B,3021,Human,CSgene,Unknown
+H3F3A,3020,Human,CSgene,Unknown
+HIST1H2BB,3018,Human,CSgene,Unknown
+HIST1H2BD,3017,Human,CSgene,Unknown
+H2AFZ,3015,Human,CSgene,Unknown
+HIST1H2AD,3013,Human,CSgene,Unknown
+HIST1H2AE,3012,Human,CSgene,Unknown
+ANAPC4,29945,Human,CSgene,Unknown
+ANAPC2,29882,Human,CSgene,Unknown
+UBN1,29855,Human,CSgene,Unknown
+GUCY2C,2984,Human,CSgene,Unknown
+UHRF1,29128,Human,CSgene,Unknown
+NSMCE2,286053,Human,CSgene,Unknown
+GPI,2821,Human,CSgene,Unknown
+GNAO1,2775,Human,CSgene,Unknown
+TNRC6A,27327,Human,CSgene,Unknown
+AGO2,27161,Human,CSgene,Unknown
+B3GAT1,27087,Human,CSgene,Unknown
+DNAJC2,27000,Human,CSgene,Unknown
+GJA1,2697,Human,CSgene/InnateDB,Unknown
+AGO1,26523,Human,CSgene,Unknown
+TINF2,26277,Human,CSgene,Unknown
+LDLRAP1,26119,Human,CSgene,Unknown
+ULK3,25989,Human,CSgene,Unknown
+ABI3BP,25890,Human,CSgene,Unknown
+HIST1H2BA,255626,Human,CSgene,Unknown
+ACKR1,2532,Human,CSgene,Unknown
+CDC26,246184,Human,CSgene,Unknown
+CNOT6L,246175,Human,CSgene,Unknown
+CABIN1,23523,Human,CSgene,Unknown
+SUZ12,23512,Human,CSgene,Unknown
+NPTXR,23467,Human,CSgene,Unknown
+CBX6,23466,Human,CSgene,Unknown
+CRTC1,23373,Human,CSgene,Unknown
+PPP1R13B,23368,Human,CSgene,Unknown
+SMC5,23137,Human,CSgene,Unknown
+TNRC6B,23112,Human,CSgene,Unknown
+TNIK,23043,Human,CSgene,Unknown
+SCMH1,22955,Human,CSgene,Unknown
+DKK1,22943,Human,CSgene,Unknown
+FGFR2,2263,Human,CSgene,Unknown
+FGF2,2247,Human,CSgene,Unknown
+FANCD2,2177,Human,CSgene,Unknown
+ESR2,2100,Human,CSgene,Unknown
+ERF,2077,Human,CSgene,Unknown
+EREG,2069,Human,CSgene,Unknown
+ENG,2022,Human,CSgene,Unknown
+CRTC2,200186,Human,CSgene,Unknown
+EIF5A,1984,Human,CSgene,Unknown
+EEF1B2,1933,Human,CSgene,Unknown
+AGO4,192670,Human,CSgene,Unknown
+AGO3,192669,Human,CSgene,Unknown
+PHC2,1912,Human,CSgene,Unknown
+PHC1,1911,Human,CSgene,Unknown
+ABCA1,19,Human,CSgene/InnateDB,Unknown
+E2F2,1870,Human,CSgene,Unknown
+DUSP6,1848,Human,CSgene,Unknown
+DUSP4,1846,Human,CSgene,Unknown
+HBEGF,1839,Human,CSgene,Unknown
+DNMT3A,1788,Human,CSgene,Unknown
+AGER,177,Human,CSgene/InnateDB,Unknown
+DKC1,1736,Human,CSgene,Unknown
+DAXX,1616,Human,CSgene,Unknown
+CYP3A4,1576,Human,CSgene,Unknown
+CTSZ,1522,Human,CSgene,Unknown
+CTSD,1509,Human,CSgene/InnateDB,Unknown
+E2F7,144455,Human,CSgene,Unknown
+HIST3H2BB,128312,Human,CSgene,Unknown
+HIST2H3C,126961,Human,CSgene,Unknown
+JDP2,122953,Human,CSgene,Unknown
+HIST4H4,121504,Human,CSgene,Unknown
+RASSF1,11186,Human,CSgene,Unknown
+TOPBP1,11073,Human,CSgene,Unknown
+UBE2C,11065,Human,CSgene,Unknown
+KIF2C,11004,Human,CSgene,Unknown
+GADD45G,10912,Human,CSgene,Unknown
+ZMYND11,10771,Human,CSgene/InnateDB,Unknown
+SPINT2,10653,Human,CSgene,Unknown
+AGR2,10551,Human,CSgene,Unknown
+CEBPG,1054,Human,CSgene,Unknown
+HYOU1,10525,Human,CSgene,Unknown
+TADA3,10474,Human,CSgene,Unknown
+ANAPC10,10393,Human,CSgene,Unknown
+CDKN2C,1031,Human,CSgene,Unknown
+NAMPT,10135,Human,CSgene/InnateDB,Unknown
+RAD50,10111,Human,CSgene,Unknown
+TRIM10,10107,Human,CSgene,Unknown
+DNM1L,10059,Human,CSgene/InnateDB,Unknown
+BCL2L11,10018,Human,CSgene,Unknown
+PRKRA,8575,Human,InnateDB,Unknown
+DDX3X,1654,Human,InnateDB,Unknown
+MIR136,406927,Human,InnateDB,Unknown
+IFIH1,64135,Human,InnateDB,Unknown
+EFTUD2,9343,Human,InnateDB,Unknown
+IL29,282618,Human,InnateDB,Unknown
+MAVS,57506,Human,InnateDB,Unknown
+IFIT5,24138,Human,InnateDB,Unknown
+CAMP,820,Human,InnateDB,Unknown
+CASP1,834,Human,InnateDB,Unknown
+TLR2,7097,Human,InnateDB,Unknown
+PELI3,246330,Human,InnateDB,Unknown
+MIR223,407008,Human,InnateDB,Unknown
+COLEC12,81035,Human,InnateDB,Unknown
+CLEC4E,26253,Human,InnateDB,Unknown
+ITGB1,3688,Human,InnateDB,Unknown
+DDX60L,91351,Human,InnateDB,Unknown
+NFKBIZ,64332,Human,InnateDB,Unknown
+TET2,54790,Human,InnateDB,Unknown
+ISG15,9636,Human,InnateDB,Unknown
+JMJD6,23210,Human,InnateDB,Unknown
+PRMT1,3276,Human,InnateDB,Unknown
+RORC,6097,Human,InnateDB,Unknown
+IL23A,51561,Human,InnateDB,Unknown
+TMEM173,340061,Human,InnateDB,Unknown
+TBK1,29110,Human,InnateDB,Unknown
+NLRC5,84166,Human,InnateDB,Unknown
+C2,717,Human,InnateDB,Unknown
+C4B,721,Human,InnateDB,Unknown
+MIR485,574436,Human,InnateDB,Unknown
+PLA2G2A,5320,Human,InnateDB,Unknown
+IL22,50616,Human,InnateDB,Unknown
+SKP2,6502,Human,InnateDB,Unknown
+IFI27,3429,Human,InnateDB,Unknown
+IFIT3,3437,Human,InnateDB,Unknown
+HACE1,57531,Human,InnateDB,Unknown
+IL25,64806,Human,InnateDB,Unknown
+TLR5,7100,Human,InnateDB,Unknown
+CXCR1,3577,Human,InnateDB,Unknown
+LGALS1,3956,Human,InnateDB,Unknown
+IL10,3586,Human,InnateDB,Unknown
+MX1,4599,Human,InnateDB,Unknown
+C5,727,Human,InnateDB,Unknown
+CEACAM8,1088,Human,InnateDB,Unknown
+C5AR1,728,Human,InnateDB,Unknown
+AIP,9049,Human,InnateDB,Unknown
+TICAM2,353376,Human,InnateDB,Unknown
+DHX33,56919,Human,InnateDB,Unknown
+IL32,9235,Human,InnateDB,Unknown
+ELAVL1,1994,Human,InnateDB,Unknown
+CYLD,1540,Human,InnateDB,Unknown
+MIR362,574030,Human,InnateDB,Unknown
+CTSK,1513,Human,InnateDB,Unknown
+CTSS,1520,Human,InnateDB,Unknown
+MIR328,442901,Human,InnateDB,Unknown
+DEFB103B,55894,Human,InnateDB,Unknown
+DEFB103A,414325,Human,InnateDB,Unknown
+DEFB4B,100289462,Human,InnateDB,Unknown
+DEFB4,1673,Human,InnateDB,Unknown
+TLR7,51284,Human,InnateDB,Unknown
+SPHK1,8877,Human,InnateDB,Unknown
+FCN3,8547,Human,InnateDB,Unknown
+ICOSL,23308,Human,InnateDB,Unknown
+SMPDL3B,27293,Human,InnateDB,Unknown
+TLR8,51311,Human,InnateDB,Unknown
+UBE2V2,7336,Human,InnateDB,Unknown
+UBE2N,7334,Human,InnateDB,Unknown
+UBE2W,55284,Human,InnateDB,Unknown
+TRIM5,85363,Human,InnateDB,Unknown
+OAS3,4940,Human,InnateDB,Unknown
+OAS1,4938,Human,InnateDB,Unknown
+PSEN2,5664,Human,InnateDB,Unknown
+STMN1,3925,Human,InnateDB,Unknown
+IRAK1,3654,Human,InnateDB,Unknown
+PELI1,57162,Human,InnateDB,Unknown
+TIFA,92610,Human,InnateDB,Unknown
+IFRD1,3475,Human,InnateDB,Unknown
+PDE12,201626,Human,InnateDB,Unknown
+LYN,4067,Human,InnateDB,Unknown
+MB21D1,115004,Human,InnateDB,Unknown
+PQBP1,10084,Human,InnateDB,Unknown
+RNASE7,84659,Human,InnateDB,Unknown
+TREM1,54210,Human,InnateDB,Unknown
+PGLYRP1,8993,Human,InnateDB,Unknown
+FPR2,2358,Human,InnateDB,Unknown
+FPR1,2357,Human,InnateDB,Unknown
+MIR130A,406919,Human,InnateDB,Unknown
+DR1,1810,Human,InnateDB,Unknown
+CASP4,837,Human,InnateDB,Unknown
+PTX3,5806,Human,InnateDB,Unknown
+S100A12,6283,Human,InnateDB,Unknown
+CXCL14,9547,Human,InnateDB,Unknown
+CAPRIN1,4076,Human,InnateDB,Unknown
+G3BP1,10146,Human,InnateDB,Unknown
+WFDC12,128488,Human,InnateDB,Unknown
+CHUK,1147,Human,InnateDB,Unknown
+IL18,3606,Human,InnateDB,Unknown
+CXCR4,7852,Human,InnateDB,Unknown
+ZBTB16,7704,Human,InnateDB,Unknown
+IL1RAPL1,11141,Human,InnateDB,Unknown
+IL18R1,8809,Human,InnateDB,Unknown
+IL1F7,27178,Human,InnateDB,Unknown
+CLEC6A,93978,Human,InnateDB,Unknown
+ANO6,196527,Human,InnateDB,Unknown
+P2RX7,5027,Human,InnateDB,Unknown
+SLC22A3,6581,Human,InnateDB,Unknown
+EIF2AK2,5610,Human,InnateDB,Unknown
+IFITM3,10410,Human,InnateDB,Unknown
+INSIG1,3638,Human,InnateDB,Unknown
+AMFR,267,Human,InnateDB,Unknown
+MIR548G,100313938,Human,InnateDB,Unknown
+S100A8,6279,Human,InnateDB,Unknown
+IL17A,3605,Human,InnateDB,Unknown
+IL22RA2,116379,Human,InnateDB,Unknown
+TLR6,10333,Human,InnateDB,Unknown
+DEFA6,1671,Human,InnateDB,Unknown
+DEFA5,1670,Human,InnateDB,Unknown
+NOD2,64127,Human,InnateDB,Unknown
+IRF1,3659,Human,InnateDB,Unknown
+MIR23A,407010,Human,InnateDB,Unknown
+MIR181A2,406954,Human,InnateDB,Unknown
+LCN2,3934,Human,InnateDB,Unknown
+SCN5A,6331,Human,InnateDB,Unknown
+ECSIT,51295,Human,InnateDB,Unknown
+USP2,9099,Human,InnateDB,Unknown
+ARG1,383,Human,InnateDB,Unknown
+PRKX,5613,Human,InnateDB,Unknown
+MIR124-1,406907,Human,InnateDB,Unknown
+SAMHD1,25939,Human,InnateDB,Unknown
+ADRBK1,156,Human,InnateDB,Unknown
+MIR122,406906,Human,InnateDB,Unknown
+RIPK2,8767,Human,InnateDB,Unknown
+IRF4,3662,Human,InnateDB,Unknown
+MFF,56947,Human,InnateDB,Unknown
+BST2,684,Human,InnateDB,Unknown
+IL5,3567,Human,InnateDB,Unknown
+FLT4,2324,Human,InnateDB,Unknown
+NLRP1A,22861,Human,InnateDB,Unknown
+CXCL10,3627,Human,InnateDB,Unknown
+MYH9,4627,Human,InnateDB,Unknown
+HNRNPL,3191,Human,InnateDB,Unknown
+IFIT1,3434,Human,InnateDB,Unknown
+TRIM14,9830,Human,InnateDB,Unknown
+MIR208B,100126336,Human,InnateDB,Unknown
+MIR499A,574501,Human,InnateDB,Unknown
+IL28B,282617,Human,InnateDB,Unknown
+FSCN1,6624,Human,InnateDB,Unknown
+AICDA,57379,Human,InnateDB,Unknown
+PARD3,56288,Human,InnateDB,Unknown
+CD1D,912,Human,InnateDB,Unknown
+MSR1,4481,Human,InnateDB,Unknown
+BGN,633,Human,InnateDB,Unknown
+CMA1,1215,Human,InnateDB,Unknown
+C3,718,Human,InnateDB,Unknown
+C3AR1,719,Human,InnateDB,Unknown
+ARF6,382,Human,InnateDB,Unknown
+CTSL1,1514,Human,InnateDB,Unknown
+GNB2L1,619571,Human,InnateDB,Unknown
+ELF4,2000,Human,InnateDB,Unknown
+JAK1,3716,Human,InnateDB,Unknown
+TNK1,8711,Human,InnateDB,Unknown
+SLX4,84464,Human,InnateDB,Unknown
+EGLN2,112398,Human,InnateDB,Unknown
+HIF1AN,55662,Human,InnateDB,Unknown
+CRKL,1399,Human,InnateDB,Unknown
+NUMB,8650,Human,InnateDB,Unknown
+F2RL1,2150,Human,InnateDB,Unknown
+PRTN3,5657,Human,InnateDB,Unknown
+MARCO,8685,Human,InnateDB,Unknown
+IL28A,282616,Human,InnateDB,Unknown
+RNF135,84282,Human,InnateDB,Unknown
+TRAF5,7188,Human,InnateDB,Unknown
+MERTK,10461,Human,InnateDB,Unknown
+CLEC4D,338339,Human,InnateDB,Unknown
+HDAC11,79885,Human,InnateDB,Unknown
+MIR145,406937,Human,InnateDB,Unknown
+PARK2,5071,Human,InnateDB,Unknown
+POLR2F,5435,Human,InnateDB,Unknown
+PIAS3,10401,Human,InnateDB,Unknown
+CCL5,6352,Human,InnateDB,Unknown
+MIR133A1,406922,Human,InnateDB,Unknown
+IL12A,3592,Human,InnateDB,Unknown
+RNF125,54941,Human,InnateDB,Unknown
+ASCC3,10973,Human,InnateDB,Unknown
+MASP2,10747,Human,InnateDB,Unknown
+MASP1,5648,Human,InnateDB,Unknown
+WNT9B,7484,Human,InnateDB,Unknown
+WNT2B,7482,Human,InnateDB,Unknown
+VPS45,11311,Human,InnateDB,Unknown
+TLR9,54106,Human,InnateDB,Unknown
+ANKRD17,26057,Human,InnateDB,Unknown
+ERN1,2081,Human,InnateDB,Unknown
+IL27,246778,Human,InnateDB,Unknown
+MIR15B,406949,Human,InnateDB,Unknown
+TNFSF10,8743,Human,InnateDB,Unknown
+PPP1CC,5501,Human,InnateDB,Unknown
+MIR517C,574492,Human,InnateDB,Unknown
+MIR517A,574479,Human,InnateDB,Unknown
+IKBKE,9641,Human,InnateDB,Unknown
+NOD1,10392,Human,InnateDB,Unknown
+MIR3148,100422876,Human,InnateDB,Unknown
+SFTPA1,653509,Human,InnateDB,Unknown
+TRIM63,84676,Human,InnateDB,Unknown
+TRIM61,391712,Human,InnateDB,Unknown
+TRIM60,166655,Human,InnateDB,Unknown
+TRIM55,84675,Human,InnateDB,Unknown
+TRIM49,57093,Human,InnateDB,Unknown
+TRIM45,80263,Human,InnateDB,Unknown
+TRIM42,287015,Human,InnateDB,Unknown
+TRIM38,10475,Human,InnateDB,Unknown
+TRIM37,4591,Human,InnateDB,Unknown
+TRIM36,55521,Human,InnateDB,Unknown
+TRIM27,5987,Human,InnateDB,Unknown
+TRIM24,8805,Human,InnateDB,Unknown
+TRIM23,373,Human,InnateDB,Unknown
+TRIM6,117854,Human,InnateDB,Unknown
+MID2,11043,Human,InnateDB,Unknown
+TRIM67,440730,Human,InnateDB,Unknown
+TRIM66,9866,Human,InnateDB,Unknown
+TRIM65,201292,Human,InnateDB,Unknown
+TRIM56,81844,Human,InnateDB,Unknown
+TRIM50,135892,Human,InnateDB,Unknown
+TRIM13,10206,Human,InnateDB,Unknown
+TRIM9,114088,Human,InnateDB,Unknown
+TRIM8,81603,Human,InnateDB,Unknown
+TRIM71,131405,Human,InnateDB,Unknown
+TRIM58,25893,Human,InnateDB,Unknown
+TRIM47,91107,Human,InnateDB,Unknown
+TRIM32,22954,Human,InnateDB,Unknown
+TRIM26,7726,Human,InnateDB,Unknown
+TRIM21,6737,Human,InnateDB,Unknown
+MID1,4281,Human,InnateDB,Unknown
+TRIM15,89870,Human,InnateDB,Unknown
+TRIM7,81786,Human,InnateDB,Unknown
+STAT2,6773,Human,InnateDB,Unknown
+IL1R2,7850,Human,InnateDB,Unknown
+MUL1,79594,Human,InnateDB,Unknown
+S100A9,6280,Human,InnateDB,Unknown
+MIRLET7B,406884,Human,InnateDB,Unknown
+RAD23A,5886,Human,InnateDB,Unknown
+CNOT8,9337,Human,InnateDB,Unknown
+COX5B,1329,Human,InnateDB,Unknown
+MIR212,406994,Human,InnateDB,Unknown
+ITGB3,3690,Human,InnateDB,Unknown
+ITGAV,3685,Human,InnateDB,Unknown
+MIR497,574456,Human,InnateDB,Unknown
+MIR187,406963,Human,InnateDB,Unknown
+TRIM62,55223,Human,InnateDB,Unknown
+CALCOCO2,10241,Human,InnateDB,Unknown
+MAP1LC3C,440738,Human,InnateDB,Unknown
+VTRNA2-1,100126299,Human,InnateDB,Unknown
+TNFAIP8L2,79626,Human,InnateDB,Unknown
+IL1RL1,9173,Human,InnateDB,Unknown
+IRF8,3394,Human,InnateDB,Unknown
+SCAF11,9169,Human,InnateDB,Unknown
+NLRC4,58484,Human,InnateDB,Unknown
+NLRC3,197358,Human,InnateDB,Unknown
+CFTR,1080,Human,InnateDB,Unknown
+AHSG,197,Human,InnateDB,Unknown
+OLFM4,10562,Human,InnateDB,Unknown
+ITGB2,3689,Human,InnateDB,Unknown
+ITGAX,3687,Human,InnateDB,Unknown
+MS4A8B,83661,Human,InnateDB,Unknown
+CASP7,840,Human,InnateDB,Unknown
+MIR1275,100302123,Human,InnateDB,Unknown
+MIR200C,406985,Human,InnateDB,Unknown
+MIRLET7C,406885,Human,InnateDB,Unknown
+PURA,5813,Human,InnateDB,Unknown
+ACE2,59272,Human,InnateDB,Unknown
+EDIL3,10085,Human,InnateDB,Unknown
+NLRP4,147945,Human,InnateDB,Unknown
+NRIP1,8204,Human,InnateDB,Unknown
+ZC3H12A,80149,Human,InnateDB,Unknown
+TLR1,7096,Human,InnateDB,Unknown
+P2RY14,9934,Human,InnateDB,Unknown
+DUSP10,11221,Human,InnateDB,Unknown
+ANGPT1,284,Human,InnateDB,Unknown
+DOK3,79930,Human,InnateDB,Unknown
+DICER1,23405,Human,InnateDB,Unknown
+NLRP6,171389,Human,InnateDB,Unknown
+TUFM,7284,Human,InnateDB,Unknown
+NLRX1,79671,Human,InnateDB,Unknown
+GNAI2,2771,Human,InnateDB,Unknown
+SPINK5,11005,Human,InnateDB,Unknown
+LST1,7940,Human,InnateDB,Unknown
+SCARB1,949,Human,InnateDB,Unknown
+TSC22D3,1831,Human,InnateDB,Unknown
+NOS2,4843,Human,InnateDB,Unknown
+CLEC7A,64581,Human,InnateDB,Unknown
+HAMP,57817,Human,InnateDB,Unknown
+RHBDF2,79651,Human,InnateDB,Unknown
+PLSCR1,5359,Human,InnateDB,Unknown
+DUSP1,1843,Human,InnateDB,Unknown
+LY96,23643,Human,InnateDB,Unknown
+LILRA2,11027,Human,InnateDB,Unknown
+CLEC9A,283420,Human,InnateDB,Unknown
+PACSIN1,29993,Human,InnateDB,Unknown
+IRAK3,11213,Human,InnateDB,Unknown
+NFAT5,10725,Human,InnateDB,Unknown
+KIAA0226,9711,Human,InnateDB,Unknown
+ZBP1,81030,Human,InnateDB,Unknown
+RIPK3,11035,Human,InnateDB,Unknown
+TMED7,51014,Human,InnateDB,Unknown
+IL1RAP,3556,Human,InnateDB,Unknown
+SDC4,6385,Human,InnateDB,Unknown
+CD209,30835,Human,InnateDB,Unknown
+NTN1,9423,Human,InnateDB,Unknown
+JAK3,3718,Human,InnateDB,Unknown
+SHARPIN,81858,Human,InnateDB,Unknown
+WNT3A,89780,Human,InnateDB,Unknown
+WAS,7454,Human,InnateDB,Unknown
+MIR16-2,406951,Human,InnateDB,Unknown
+MIR16-1,406950,Human,InnateDB,Unknown
+PYCARD,29108,Human,InnateDB,Unknown
+FREM1,158326,Human,InnateDB,Unknown
+USP4,7375,Human,InnateDB,Unknown
+DCD,117159,Human,InnateDB,Unknown
+FSTL1,11167,Human,InnateDB,Unknown
+DEFA1,1667,Human,InnateDB,Unknown
+TRIB2,28951,Human,InnateDB,Unknown
+APOA1,335,Human,InnateDB,Unknown
+HSP90B1,7184,Human,InnateDB,Unknown
+TRPM2,7226,Human,InnateDB,Unknown
+ITCH,83737,Human,InnateDB,Unknown
+IL17C,27189,Human,InnateDB,Unknown
+IL17RE,132014,Human,InnateDB,Unknown
+IL9,3578,Human,InnateDB,Unknown
+LRRK2,120892,Human,InnateDB,Unknown
+PIK3C3,5289,Human,InnateDB,Unknown
+IL13,3596,Human,InnateDB,Unknown
+HP,3240,Human,InnateDB,Unknown
+UNC5CL,222643,Human,InnateDB,Unknown
+CNOT4,4850,Human,InnateDB,Unknown
+UNC93B1,81622,Human,InnateDB,Unknown
+SERPINB9,5272,Human,InnateDB,Unknown
+PROS1,5627,Human,InnateDB,Unknown
+GAS6,2621,Human,InnateDB,Unknown
+CD300LF,146722,Human,InnateDB,Unknown
+CD300A,11314,Human,InnateDB,Unknown
+CCL17,6361,Human,InnateDB,Unknown
+IFIT2,3433,Human,InnateDB,Unknown
+MIR10A,406902,Human,InnateDB,Unknown
+MRGPRX2,117194,Human,InnateDB,Unknown
+IL33,90865,Human,InnateDB,Unknown
+RGS2,5997,Human,InnateDB,Unknown
+NOX1,27035,Human,InnateDB,Unknown
+PPP3R1,5534,Human,InnateDB,Unknown
+PCBP2,5094,Human,InnateDB,Unknown
+PCBP1,5093,Human,InnateDB,Unknown
+FANCC,2176,Human,InnateDB,Unknown
+APOBEC3B,9582,Human,InnateDB,Unknown
+DEFB1,1672,Human,InnateDB,Unknown
+PGLYRP3,114771,Human,InnateDB,Unknown
+DCN,1634,Human,InnateDB,Unknown
+MIR125B2,406912,Human,InnateDB,Unknown
+MIR125B1,406911,Human,InnateDB,Unknown
+DLK1,8788,Human,InnateDB,Unknown
+TNIP1,10318,Human,InnateDB,Unknown
+RAC2,5880,Human,InnateDB,Unknown
+PKLR,5313,Human,InnateDB,Unknown
+FADD,8772,Human,InnateDB,Unknown
+PLA2G4A,5321,Human,InnateDB,Unknown
+GZMM,3004,Human,InnateDB,Unknown
+SELK,58515,Human,InnateDB,Unknown
+AIRE,326,Human,InnateDB,Unknown
+APOH,350,Human,InnateDB,Unknown
+PPARGC1B,133522,Human,InnateDB,Unknown
+ZFPM2,23414,Human,InnateDB,Unknown
+ZFPM1,161882,Human,InnateDB,Unknown
+GATA6,2627,Human,InnateDB,Unknown
+TANK,10010,Human,InnateDB,Unknown
+NAIP,4671,Human,InnateDB,Unknown
+TREM2,54209,Human,InnateDB,Unknown
+APOBEC3G,60489,Human,InnateDB,Unknown
+DDX41,51428,Human,InnateDB,Unknown
+TAX1BP1,8887,Human,InnateDB,Unknown
+NEU1,4758,Human,InnateDB,Unknown
+AQP3,360,Human,InnateDB,Unknown
+ELF1,1997,Human,InnateDB,Unknown
+CD8A,925,Human,InnateDB,Unknown
+MUC1,4582,Human,InnateDB,Unknown
+IL1RL2,8808,Human,InnateDB,Unknown
+RPL19,6143,Human,InnateDB,Unknown
+IL4R,3566,Human,InnateDB,Unknown
+SFTPD,6441,Human,InnateDB,Unknown
+PLTP,5360,Human,InnateDB,Unknown
+LTBR,4055,Human,InnateDB,Unknown
+RAG1,5896,Human,InnateDB,Unknown
+TNFSF9,8744,Human,InnateDB,Unknown
+TNFRSF9,3604,Human,InnateDB,Unknown
+SNCA,6622,Human,InnateDB,Unknown
+F11,2160,Human,InnateDB,Unknown
+ADAR,103,Human,InnateDB,Unknown
+TREML2,79865,Human,InnateDB,Unknown
+CBL,867,Human,InnateDB,Unknown
+HRG,3273,Human,InnateDB,Unknown
+NOTCH1,4851,Human,InnateDB,Unknown
+GBP2,2634,Human,InnateDB,Unknown
+HSPA14,51182,Human,InnateDB,Unknown
+EDN1,1906,Human,InnateDB,Unknown
+CD5L,922,Human,InnateDB,Unknown
+DUOX2,50506,Human,InnateDB,Unknown
+RARRES2,5919,Human,InnateDB,Unknown
+KCNJ8,3764,Human,InnateDB,Unknown
+NFATC4,4776,Human,InnateDB,Unknown
+NFATC3,4775,Human,InnateDB,Unknown
+CLEC1B,51266,Human,InnateDB,Unknown
+DHX36,170506,Human,InnateDB,Unknown
+DDX21,9188,Human,InnateDB,Unknown
+DDX1,1653,Human,InnateDB,Unknown
+CD97,976,Human,InnateDB,Unknown
+ADRB2,154,Human,InnateDB,Unknown
+JAM3,83700,Human,InnateDB,Unknown
+AHR,196,Human,InnateDB,Unknown
+UBQLN1,29979,Human,InnateDB,Unknown
+PMAIP1,5366,Human,InnateDB,Unknown
+IP6K1,9807,Human,InnateDB,Unknown
+KHSRP,8570,Human,InnateDB,Unknown
+IFNAR1,3454,Human,InnateDB,Unknown
+TPST1,8460,Human,InnateDB,Unknown
+PLEC,5339,Human,InnateDB,Unknown
+CCR3,1232,Human,InnateDB,Unknown
+VLDLR,7436,Human,InnateDB,Unknown
+MIR23B,407011,Human,InnateDB,Unknown
+MIR107,406901,Human,InnateDB,Unknown
+GPR77,27202,Human,InnateDB,Unknown
+PIK3AP1,118788,Human,InnateDB,Unknown
+AVP,551,Human,InnateDB,Unknown
+CASP8,841,Human,InnateDB,Unknown
+ZC3HAV1,56829,Human,InnateDB,Unknown
+ATG12,9140,Human,InnateDB,Unknown
+MIR373,442918,Human,InnateDB,Unknown
+MIR372,442917,Human,InnateDB,Unknown
+AKNA,80709,Human,InnateDB,Unknown
+IRAK2,3656,Human,InnateDB,Unknown
+PGLYRP4,57115,Human,InnateDB,Unknown
+ARHGAP15,55843,Human,InnateDB,Unknown
+BID,637,Human,InnateDB,Unknown
+THBS1,7057,Human,InnateDB,Unknown
+TECPR1,25851,Human,InnateDB,Unknown
+HMGN2,3151,Human,InnateDB,Unknown
+CXCR3,2833,Human,InnateDB,Unknown
+CD46,4179,Human,InnateDB,Unknown
+FCN1,2219,Human,InnateDB,Unknown
+NR1H3,10062,Human,InnateDB,Unknown
+NR4A3,8013,Human,InnateDB,Unknown
+SRXN1,140809,Human,InnateDB,Unknown
+GP2,2813,Human,InnateDB,Unknown
+HRH4,59340,Human,InnateDB,Unknown
+PLG,5340,Human,InnateDB,Unknown
+CCL2,6347,Human,InnateDB,Unknown
+IMPDH2,3615,Human,InnateDB,Unknown
+C1QC,714,Human,InnateDB,Unknown
+C1QB,713,Human,InnateDB,Unknown
+CCBP2,1238,Human,InnateDB,Unknown
+PGLYRP2,114770,Human,InnateDB,Unknown
+CRP,1401,Human,InnateDB,Unknown
+LGMN,5641,Human,InnateDB,Unknown
+SREBF2,6721,Human,InnateDB,Unknown
+COPS5,10987,Human,InnateDB,Unknown
+XBP1,7494,Human,InnateDB,Unknown
+NFIL3,4783,Human,InnateDB,Unknown
+MBL2,4153,Human,InnateDB,Unknown
+CCR6,1235,Human,InnateDB,Unknown
+CLTC,1213,Human,InnateDB,Unknown
+CEBPE,1053,Human,InnateDB,Unknown
+CEBPD,1052,Human,InnateDB,Unknown
+CORO2A,7464,Human,InnateDB,Unknown
+HMOX1,3162,Human,InnateDB,Unknown
+TBKBP1,9755,Human,InnateDB,Unknown
+SIAH2,6478,Human,InnateDB,Unknown
+CD37,951,Human,InnateDB,Unknown
+SLC15A4,121260,Human,InnateDB,Unknown
+SYP,6855,Human,InnateDB,Unknown
+NLRP12,91662,Human,InnateDB,Unknown
+NLRP2,55655,Human,InnateDB,Unknown
+NLRP9,338321,Human,InnateDB,Unknown
+NLRP11,204801,Human,InnateDB,Unknown
+NLRP13,126204,Human,InnateDB,Unknown
+NLRP8,126205,Human,InnateDB,Unknown
+NLRP5,126206,Human,InnateDB,Unknown
+PSMA7,5688,Human,InnateDB,Unknown
+TNFRSF18,8784,Human,InnateDB,Unknown
+CDK9,1025,Human,InnateDB,Unknown
+PTAFR,5724,Human,InnateDB,Unknown
+C8A,731,Human,InnateDB,Unknown
+SELE,6401,Human,InnateDB,Unknown
+C4A,720,Human,InnateDB,Unknown
+DEFA3,1668,Human,InnateDB,Unknown
+PTPN2,5771,Human,InnateDB,Unknown
+IFNGR2,3460,Human,InnateDB,Unknown
+RCAN1,1827,Human,InnateDB,Unknown
+MALT1,10892,Human,InnateDB,Unknown
+ABCG1,9619,Human,InnateDB,Unknown
+SOCS6,9306,Human,InnateDB,Unknown
+LGALS2,3957,Human,InnateDB,Unknown
+APOBEC3A,200315,Human,InnateDB,Unknown
+MLST8,64223,Human,InnateDB,Unknown
+TCEB2,6923,Human,InnateDB,Unknown
+MEFV,4210,Human,InnateDB,Unknown
+AMACR,23600,Human,InnateDB,Unknown
+C1QTNF3,114899,Human,InnateDB,Unknown
+SCARF1,8578,Human,InnateDB,Unknown
+PTPN6,5777,Human,InnateDB,Unknown
+CLEC4C,170482,Human,InnateDB,Unknown
+SIGIRR,59307,Human,InnateDB,Unknown
+C9,735,Human,InnateDB,Unknown
+STAP2,55620,Human,InnateDB,Unknown
+TOLLIP,54472,Human,InnateDB,Unknown
+ARRB2,409,Human,InnateDB,Unknown
+REST,5978,Human,InnateDB,Unknown
+RCOR1,23186,Human,InnateDB,Unknown
+KAT2B,8850,Human,InnateDB,Unknown
+THRB,7068,Human,InnateDB,Unknown
+MTA1,9112,Human,InnateDB,Unknown
+CCR4,1233,Human,InnateDB,Unknown
+CD36,948,Human,InnateDB,Unknown
+CD180,4064,Human,InnateDB,Unknown
+TCEB1,6921,Human,InnateDB,Unknown
+IRAK4,51135,Human,InnateDB,Unknown
+ITGAM,3684,Human,InnateDB,Unknown
+VDR,7421,Human,InnateDB,Unknown
+SIAH1,6477,Human,InnateDB,Unknown
+LPCAT2,54947,Human,InnateDB,Unknown
+ACHE,43,Human,InnateDB,Unknown
+TRAIP,10293,Human,InnateDB,Unknown
+TNIP3,79931,Human,InnateDB,Unknown
+MAP3K12,7786,Human,InnateDB,Unknown
+ELMOD2,255520,Human,InnateDB,Unknown
+RNF41,10193,Human,InnateDB,Unknown
+SIRPA,140885,Human,InnateDB,Unknown
+BCAR1,9564,Human,InnateDB,Unknown
+CD22,933,Human,InnateDB,Unknown
+CD274,29126,Human,InnateDB,Unknown
+PDCD1LG2,80380,Human,InnateDB,Unknown
+CCR7,1236,Human,InnateDB,Unknown
+SMARCE1,6605,Human,InnateDB,Unknown
+NKIRAS2,28511,Human,InnateDB,Unknown
+DHX58,79132,Human,InnateDB,Unknown
+BECN1,8678,Human,InnateDB,Unknown
+NUMBL,9253,Human,InnateDB,Unknown
+CCDC88A,55704,Human,InnateDB,Unknown
+RPS19,6223,Human,InnateDB,Unknown
+CAMK2A,815,Human,InnateDB,Unknown
+IFNA2,3440,Human,InnateDB,Unknown
+IFNA1,3439,Human,InnateDB,Unknown
+ANXA4,307,Human,InnateDB,Unknown
+CYBB,1536,Human,InnateDB,Unknown
+BCL3,602,Human,InnateDB,Unknown
+TRAFD1,10906,Human,InnateDB,Unknown
+ITGA3,3675,Human,InnateDB,Unknown
+IRF2BP1,26145,Human,InnateDB,Unknown
+LY86,9450,Human,InnateDB,Unknown
+RANBP9,10048,Human,InnateDB,Unknown
+NUP153,9972,Human,InnateDB,Unknown
+OTUD5,55593,Human,InnateDB,Unknown
+MAP3K8,1326,Human,InnateDB,Unknown
+LILRA4,23547,Human,InnateDB,Unknown
+PROCR,10544,Human,InnateDB,Unknown
+CASP12,100506742,Human,InnateDB,Unknown
+CARD18,59082,Human,InnateDB,Unknown
+SOCS3,9021,Human,InnateDB,Unknown
+CYTIP,9595,Human,InnateDB,Unknown
+MAFB,9935,Human,InnateDB,Unknown
+FLI1,2313,Human,InnateDB,Unknown
+PTCH1,5727,Human,InnateDB,Unknown
+STAT4,6775,Human,InnateDB,Unknown
+CTLA4,1493,Human,InnateDB,Unknown
+AAMP,14,Human,InnateDB,Unknown
+NFATC2,4773,Human,InnateDB,Unknown
+COPS8,10920,Human,InnateDB,Unknown
+LRRFIP1,9208,Human,InnateDB,Unknown
+NUP214,8021,Human,InnateDB,Unknown
+MFN2,9927,Human,InnateDB,Unknown
+IL17F,112744,Human,InnateDB,Unknown
+GRK5,2869,Human,InnateDB,Unknown
+DMBT1,1755,Human,InnateDB,Unknown
+GPSM1,26086,Human,InnateDB,Unknown
+CARD9,64170,Human,InnateDB,Unknown
+FBXW5,54461,Human,InnateDB,Unknown
+IRAK1BP1,134728,Human,InnateDB,Unknown
+KDM1,23028,Human,InnateDB,Unknown
+RUNX3,864,Human,InnateDB,Unknown
+MAP3K4,4216,Human,InnateDB,Unknown
+GNAI3,2773,Human,InnateDB,Unknown
+CD53,963,Human,InnateDB,Unknown
+SNX27,81609,Human,InnateDB,Unknown
+RUSC1,23623,Human,InnateDB,Unknown
+FCGR2A,2212,Human,InnateDB,Unknown
+CFH,3075,Human,InnateDB,Unknown
+PTPRC,5788,Human,InnateDB,Unknown
+SPP1,6696,Human,InnateDB,Unknown
+C4BPB,725,Human,InnateDB,Unknown
+C4BPA,722,Human,InnateDB,Unknown
+APCS,325,Human,InnateDB,Unknown
+KITLG,4254,Human,InnateDB,Unknown
+PDCD1,5133,Human,InnateDB,Unknown
+RFTN1,23180,Human,InnateDB,Unknown
+HSPBP1,23640,Human,InnateDB,Unknown
+AKAP10,11216,Human,InnateDB,Unknown
+PTGES2,80142,Human,InnateDB,Unknown
+STIM1,6786,Human,InnateDB,Unknown
+ORAI1,84876,Human,InnateDB,Unknown
+ITPR3,3710,Human,InnateDB,Unknown
+ITPR1,3708,Human,InnateDB,Unknown
+LRRFIP2,9209,Human,InnateDB,Unknown
+TRIB3,57761,Human,InnateDB,Unknown
+CHGA,1113,Human,InnateDB,Unknown
+SIGLEC15,284266,Human,InnateDB,Unknown
+SIGLEC11,114132,Human,InnateDB,Unknown
+SIGLEC9,27180,Human,InnateDB,Unknown
+SIGLEC8,27181,Human,InnateDB,Unknown
+SIGLEC7,27036,Human,InnateDB,Unknown
+SIGLEC6,946,Human,InnateDB,Unknown
+SIGLEC5,8778,Human,InnateDB,Unknown
+SIGLEC1,6614,Human,InnateDB,Unknown
+SIGLEC10,89790,Human,InnateDB,Unknown
+RGMB,285704,Human,InnateDB,Unknown
+OAS2,4939,Human,InnateDB,Unknown
+CTSB,1508,Human,InnateDB,Unknown
+LAIR1,3903,Human,InnateDB,Unknown
+IL19,29949,Human,InnateDB,Unknown
+C8B,732,Human,InnateDB,Unknown
+DEFA4,1669,Human,InnateDB,Unknown
+NLRP10,338322,Human,InnateDB,Unknown
+CARD16,114769,Human,InnateDB,Unknown
+NFKBIE,4794,Human,InnateDB,Unknown
+OTUD7B,56957,Human,InnateDB,Unknown
+CFB,629,Human,InnateDB,Unknown
+ISG20,3669,Human,InnateDB,Unknown
+MST1R,4486,Human,InnateDB,Unknown
+ADAM10,102,Human,InnateDB,Unknown
+MAP3K3,4215,Human,InnateDB,Unknown
+NKIRAS1,28512,Human,InnateDB,Unknown
+KLK1,3816,Human,InnateDB,Unknown
+C1S,716,Human,InnateDB,Unknown
+PPP4C,5531,Human,InnateDB,Unknown
+KPNA1,3836,Human,InnateDB,Unknown
+C8G,733,Human,InnateDB,Unknown
+LAT,27040,Human,InnateDB,Unknown
+C1R,715,Human,InnateDB,Unknown
+LY9,4063,Human,InnateDB,Unknown
+CFP,5199,Human,InnateDB,Unknown
+ICAM1,3383,Human,InnateDB,Unknown
+HLA-E,3133,Human,InnateDB,Unknown
+ELP2,55250,Human,InnateDB,Unknown
+F2RL2,2151,Human,InnateDB,Unknown
+F2RL3,9002,Human,InnateDB,Unknown
+CD27,939,Human,InnateDB,Unknown
+HOXA9,3205,Human,InnateDB,Unknown
+WDR34,89891,Human,InnateDB,Unknown
+ACAP1,9744,Human,InnateDB,Unknown
+ERAP1,51752,Human,InnateDB,Unknown
+CXCL11,6373,Human,InnateDB,Unknown
+CXCL9,4283,Human,InnateDB,Unknown
+AP3B1,8546,Human,InnateDB,Unknown
+S100A10,6281,Human,InnateDB,Unknown
+ANXA2,302,Human,InnateDB,Unknown
+CEACAM1,634,Human,InnateDB,Unknown
+IL13RA1,3597,Human,InnateDB,Unknown
+SEMA3A,10371,Human,InnateDB,Unknown
+PLXNA4,91584,Human,InnateDB,Unknown
+CASP6,839,Human,InnateDB,Unknown
+PELI2,57161,Human,InnateDB,Unknown
+FFAR2,2867,Human,InnateDB,Unknown
+NR1H4,9971,Human,InnateDB,Unknown
+CISH,1154,Human,InnateDB,Unknown
+HMGB3,3149,Human,InnateDB,Unknown
+SIVA1,10572,Human,InnateDB,Unknown
+SNAP23,8773,Human,InnateDB,Unknown
+IRF2,3660,Human,InnateDB,Unknown
+PKN1,5585,Human,InnateDB,Unknown
+ERBB2IP,55914,Human,InnateDB,Unknown
+RBCK1,10616,Human,InnateDB,Unknown
+RNF31,55072,Human,InnateDB,Unknown
+PIAS1,8554,Human,InnateDB,Unknown
+WDR62,284403,Human,InnateDB,Unknown
+DAB2IP,153090,Human,InnateDB,Unknown
+YJEFN3,374887,Human,InnateDB,Unknown
+AZI2,64343,Human,InnateDB,Unknown
+GLRX,2745,Human,InnateDB,Unknown
+APOBEC3F,200316,Human,InnateDB,Unknown
+TRAT1,50852,Human,InnateDB,Unknown
+F2R,2149,Human,InnateDB,Unknown
+FCGR1A,2209,Human,InnateDB,Unknown
+UBD,10537,Human,InnateDB,Unknown
+CD300E,342510,Human,InnateDB,Unknown
+CASP10,843,Human,InnateDB,Unknown
+IRF6,3664,Human,InnateDB,Unknown
+IRF9,10379,Human,InnateDB,Unknown
+VASP,7408,Human,InnateDB,Unknown
+IFITM1,8519,Human,InnateDB,Unknown
+IFITM2,10581,Human,InnateDB,Unknown
+RASGEF1B,153020,Human,InnateDB,Unknown
+NOXA1,10811,Human,InnateDB,Unknown
+TRPV2,51393,Human,InnateDB,Unknown
+CYBA,1535,Human,InnateDB,Unknown
+PPP3CA,5530,Human,InnateDB,Unknown
+KIR3DL2,3812,Human,InnateDB,Unknown
+OPTN,10133,Human,InnateDB,Unknown
+LGALS4,3960,Human,InnateDB,Unknown
+LGALS8,3964,Human,InnateDB,Unknown
+IL31,386653,Human,InnateDB,Unknown
+RSAD2,91543,Human,InnateDB,Unknown
+ATF3,467,Human,InnateDB,Unknown
+HERC5,51191,Human,InnateDB,Unknown
+FCN2,2220,Human,InnateDB,Unknown
+DUOX1,53905,Human,InnateDB,Unknown
+INPP5D,3635,Human,InnateDB,Unknown
+CNPY3,10695,Human,InnateDB,Unknown
+GPR33,2856,Human,InnateDB,Unknown
+SFTPA2,729238,Human,InnateDB,Unknown
+IFNGR1,3459,Human,InnateDB,Unknown
+SLC2A11,66035,Human,InnateDB,Unknown
+ATG9A,79065,Human,InnateDB,Unknown
+MX2,4600,Human,InnateDB,Unknown
+TPSB2,64499,Human,InnateDB,Unknown
+GAB1,2549,Human,InnateDB,Unknown
+SLAMF1,6504,Human,InnateDB,Unknown
+GOPC,57120,Human,InnateDB,Unknown
+YWHAE,7531,Human,InnateDB,Unknown
+LTB4R,1241,Human,InnateDB,Unknown
+BTN3A3,10384,Human,InnateDB,Unknown
+BTN3A2,11118,Human,InnateDB,Unknown
+BTN3A1,11119,Human,InnateDB,Unknown
+IFI6,2537,Human,InnateDB,Unknown
+PTMA,5757,Human,InnateDB,Unknown
+RXRA,6256,Human,InnateDB,Unknown
+AIMP1,9255,Human,InnateDB,Unknown
+GNB2,2783,Human,InnateDB,Unknown
+SPI1,6688,Human,InnateDB,Unknown
+NLRP7,199713,Human,InnateDB,Unknown
+GLI1,2735,Human,InnateDB,Unknown
+TOMM70A,9868,Human,InnateDB,Unknown
+RAB11A,8766,Human,InnateDB,Unknown
+FZD1,8321,Human,InnateDB,Unknown
+CTSG,1511,Human,InnateDB,Unknown
+ELANE,1991,Human,InnateDB,Unknown
+TNFRSF13B,23495,Human,InnateDB,Unknown
+ATG16L1,55054,Human,InnateDB,Unknown
+OTUB2,78990,Human,InnateDB,Unknown
+OTUB1,55611,Human,InnateDB,Unknown
+PPIA,5478,Human,InnateDB,Unknown
+CD200,4345,Human,InnateDB,Unknown
+ANXA1,301,Human,InnateDB,Unknown
+XDH,7498,Human,InnateDB,Unknown
+CR2,1380,Human,InnateDB,Unknown
+IFNAR2,3455,Human,InnateDB,Unknown
+IL10RB,3588,Human,InnateDB,Unknown
+ING4,51147,Human,InnateDB,Unknown
+CALM1,801,Human,InnateDB,Unknown
+NXN,64359,Human,InnateDB,Unknown
+SPON2,10417,Human,InnateDB,Unknown
+CTCF,10664,Human,InnateDB,Unknown
+RNF5,6048,Human,InnateDB,Unknown
+PIAS2,9063,Human,InnateDB,Unknown
+TCF4,6925,Human,InnateDB,Unknown
+TYRO3,7301,Human,InnateDB,Unknown
+TNFRSF12A,51330,Human,InnateDB,Unknown
+TLR10,81793,Human,InnateDB,Unknown
+USP7,7874,Human,InnateDB,Unknown
+CARD6,84674,Human,InnateDB,Unknown
+C7,730,Human,InnateDB,Unknown
+C6,729,Human,InnateDB,Unknown
+BDKRB2,624,Human,InnateDB,Unknown
+C1QBP,708,Human,InnateDB,Unknown
+CSK,1445,Human,InnateDB,Unknown
+SCAMP5,192683,Human,InnateDB,Unknown
+PSTPIP1,9051,Human,InnateDB,Unknown
+CTSH,1512,Human,InnateDB,Unknown
+TRIM22,10346,Human,InnateDB,Unknown
+NLRP14,338323,Human,InnateDB,Unknown
+CCNT1,904,Human,InnateDB,Unknown
+SUGT1,10910,Human,InnateDB,Unknown
+SARM1,23098,Human,InnateDB,Unknown
+NCKAP1L,3071,Human,InnateDB,Unknown
+CD63,967,Human,InnateDB,Unknown
+BMX,660,Human,InnateDB,Unknown
+SERPING1,710,Human,InnateDB,Unknown
+RETNLB,84666,Human,InnateDB,Unknown
+NFKBIB,4793,Human,InnateDB,Unknown
+PRKCE,5581,Human,InnateDB,Unknown
+SOCS5,9655,Human,InnateDB,Unknown
+REL,5966,Human,InnateDB,Unknown
+RPS6KA4,8986,Human,InnateDB,Unknown
+SH2D1A,4068,Human,InnateDB,Unknown
+SLAMF8,56833,Human,InnateDB,Unknown
+SLAMF9,89886,Human,InnateDB,Unknown
+SLAMF6,114836,Human,InnateDB,Unknown
+SLAMF7,57823,Human,InnateDB,Unknown
