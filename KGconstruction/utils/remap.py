@@ -36,8 +36,7 @@ class RemapParser:
     @staticmethod
     @jit(nopython = True)
     def inRegion(start_sites: np.ndarray, end_sites: np.ndarray, start: int, end: int) -> np.ndarray:
-        return (((start_sites > start) & (start_sites < end)) | ((end_sites > start) & (end_sites < end)) | 
-                ((start_sites > start) & (end_sites < end)) | ((start_sites < start) & (end_sites > end)))
+        return (start_sites < end) & (end_sites > start) 
     
     @staticmethod
     def getSiteTargets(start: int, end: int, promoters: pd.DataFrame) -> list:
