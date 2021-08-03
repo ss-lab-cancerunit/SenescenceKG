@@ -9,7 +9,7 @@ First we will import the script which merges count data across all comparisons i
 
 ```{r, message = FALSE, warning = FALSE}
 # source script for merging count data
-source('MergeCounts.R')
+source('merge_counts.R')
 # import differential expression results
 ME_results <- read.csv('data/meta_analysis_results.csv', header = T)
 ```

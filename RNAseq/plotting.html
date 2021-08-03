@@ -172,7 +172,7 @@ pre code {
 
 <p>First we will import the script which merges count data across all comparisons in all experiments, so we can analyse the raw counts. We’ll also import the results of the differential expression meta-analysis.</p>
 <pre class="r"><code># source script for merging count data
-source(&#39;MergeCounts.R&#39;)
+source(&#39;merge_counts.R&#39;)
 # import differential expression results
 ME_results &lt;- read.csv(&#39;data/meta_analysis_results.csv&#39;, header = T)</code></pre>
 <p>Now let’s grab some read mapping statistics from the data sets we imported. For each sample, we’ll extract the number of reads assigned during the alignment step and the number of reads unassigned.</p>

@@ -3,7 +3,7 @@ library(dplyr)
 library(tibble)
 
 source('utils.R')
-source('MergeDE.R')
+source('merge_DE.R')
 
 # extract log fold changes and standard errors
 all_lfcs <- select_if(all_DE_info, grepl('log2FoldChange', colnames(all_DE_info)))
