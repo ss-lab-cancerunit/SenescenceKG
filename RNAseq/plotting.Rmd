@@ -9,7 +9,7 @@ First we will import the script which merges count data across all comparisons i
 
 ```{r, message = FALSE, warning = FALSE}
 # source script for merging count data
-source('MergeCounts.R')
+source('merge_counts.R')
 # import differential expression results
 ME_results <- read.csv('data/meta_analysis_results.csv', header = T)
 ```
@@ -65,12 +65,12 @@ read_mapping_plot <- ggplot(read_mapping_df, aes(x = sample, y = num_reads, fill
   theme_bw() + 
   theme(axis.text.x = element_blank(),
         axis.ticks.x = element_blank(),
-        axis.title = element_text(size = 24),
-        axis.text.y = element_text(size = 22),
-        legend.text = element_text(size = 22),
-        legend.title = element_text(size = 24),
+        axis.title = element_text(size = 42),
+        axis.text.y = element_text(size = 38),
+        legend.text = element_text(size = 38),
+        legend.title = element_text(size = 42),
         panel.grid = element_blank(),
-        plot.title = element_text(size = 30, hjust = 0.5))
+        plot.title = element_text(size = 50, hjust = 0.5))
         
 print(read_mapping_plot)
 
@@ -144,7 +144,7 @@ sample_PCA_plot <- ggplot(countMatrixPC$x, aes(x = PC1, y = PC2,
 print(sample_PCA_plot)
 
 # save the plot
-ggsave('figures/fig1b.png', sample_PCA_plot, width = 12, height = 8)
+ggsave('figures/pca_plot.png', sample_PCA_plot, width = 12, height = 8)
 ```
 
 The plot clearly shows some significant batch effects, with samples from individual experiments clustering together more tightly than samples with the same type of senescence. To adjust for these effects, we used a random effects model to model inter-study heterogeneity of log fold changes.
@@ -325,5 +325,5 @@ combined_vlcplot <- ggarrange(oncogene_vlcplot,
 print(combined_vlcplot)
                               
 # save the figure
-ggsave('figures/fig1e.png', combined_vlcplot, width = 18, height = 6)
+ggsave('figures/fig1b.png', combined_vlcplot, width = 18, height = 6)
 ```
