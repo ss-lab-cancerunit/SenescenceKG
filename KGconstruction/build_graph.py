@@ -17,7 +17,7 @@ parser.add_argument('--GO_ann', type = str, help = 'Filepath to Gene Ontology an
 parser.add_argument('--drugbank', type = str, help = 'Filepath to DrugBank .xml file')
 parser.add_argument('--pathway_commons', type = str, help = 'Filepath to Pathway Commons .txt file')
 parser.add_argument('--remap', type = str, help = 'Filepath to ReMap .bed file')
-parser.add_argument('--uniprot_idmapping', type = str, help = 'Filepath to Uniprot .tab file for idmapping')
+parser.add_argument('--uniprot_idmapping', type = str, help = 'Filepath to Uniprot .tab file for id mapping')
 parser.add_argument('--password', type = str, help = 'Password for the neo4j graph database')
 args = parser.parse_args()
 
