@@ -91,14 +91,14 @@ if __name__ == '__main__':
     
     pykeen_all, pykeen_train, pykeen_test = model.embedding_facts, model.final_train_set, model.test_set
     
-    # mask pathway results
+    # masks for different types of facts in the pykeen test set
     pathway_rel_mask = pykeen_test['general_relation_lab'] != pykeen_test['specific_relation_lab']
     TF_binding_rel_mask = pykeen_test['general_relation_lab'] == 'TF_BINDING'
     GO_gene_term_mask = np.logical_xor(pykeen_test['head_type'] == 'GeneOntologyTerm', pykeen_test['tail_type'] == 'GeneOntologyTerm')
     GO_term_term_mask = (pykeen_test['head_type'] == 'GeneOntologyTerm') & (pykeen_test['tail_type'] == 'GeneOntologyTerm')
     physical_interaction_mask = pykeen_test['general_relation_lab'] == 'PHYSICAL_INTERACTION'
  
-    # convert train/test sets to numpy array, isolate pathway relations
+    # convert train/test sets to numpy array, as well as all fact subsets
     pykeen_all_numpy = pykeen_all[['head_lab', 'general_relation_lab', 'tail_lab']].to_numpy(dtype = 'str')
     pykeen_train_numpy = pykeen_train[['head_lab', 'general_relation_lab', 'tail_lab']].to_numpy(dtype = 'str')
     pykeen_test_numpy = pykeen_test[['head_lab', 'general_relation_lab', 'tail_lab']].to_numpy(dtype = 'str')
@@ -142,6 +142,7 @@ if __name__ == '__main__':
                                                                       entity_to_id = model.embedding_node_lab2idx, 
                                                                       relation_to_id = model.embedding_gen_rel_lab2idx)
     
+    # save the triples factory for all triples
     pickle.dump(pykeen_all_triples, open(outdir + pykeen_triples_outpath, 'wb'))
     
     # initialise evaluator class

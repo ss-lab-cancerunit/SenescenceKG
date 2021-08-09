@@ -22,8 +22,6 @@ class CustomEmbeddingModel(TransR, GraphParser):
         self.processGraph(*args, **kwargs)
         
         self.state = state
-        
-        print('Graph data parsed and cleaned.\n')
          
     def initializeModel(self,
                         facts: pd.DataFrame,
@@ -172,10 +170,10 @@ class CustomEmbeddingModel(TransR, GraphParser):
             for pos_facts in batches:
                 
                 neg_facts = self.bernoulliSample(pos_facts, n = self.num_neg_per_pos)
-                loss += self.trainStep(pos_facts, neg_facts) 
+                loss += self.trainStep(pos_facts, neg_facts)    
                 
             if verbose == True:
-                print('Loss: {}, epoch {}'.format(loss.numpy(), e+1))
+                print('Loss: {}, epoch {}'.format(loss.numpy() / len(batches), e+1))
             
         if return_results == True:
             
@@ -296,8 +294,8 @@ class CustomEmbeddingModel(TransR, GraphParser):
         
         # make data frame of possible facts
         candidate_set = pd.DataFrame({'head': np.repeat(head, len(possible_tails)),
-                                      'general_relation': np.repeat(general_relation, len(possible_heads)),
-                                      'specific_relation': np.repeat(specific_relation, len(possible_heads)),
+                                      'general_relation': np.repeat(general_relation, len(possible_tails)),
+                                      'specific_relation': np.repeat(specific_relation, len(possible_tails)),
                                       'tail': possible_tails}
                                     )
         

@@ -31,10 +31,10 @@ if __name__ == '__main__':
     negs_per_pos = 5
     pos_facts = train[['head', 'general_relation', 'specific_relation', 'tail']].to_numpy(dtype = 'int32')
     
-    tf.random.set_seed(123)
-    
     # optuna objective function
     def objective(trial):
+        
+        tf.random.set_seed(123)
         
         hps = {'size_e': trial.suggest_int('size_e', low = 25, high = 100, step = 25),
                'size_r': trial.suggest_int('size_r', low = 25, high = 100, step = 25),
