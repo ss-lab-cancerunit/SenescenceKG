@@ -27,7 +27,7 @@ if __name__ == '__main__':
         
     train, validation = model.train_set, model.validation_set
     
-    # get all positive and negative facts
+    # get all positive facts
     negs_per_pos = 5
     pos_facts = train[['head', 'general_relation', 'specific_relation', 'tail']].to_numpy(dtype = 'int32')
     

@@ -39,7 +39,7 @@ if __name__ == '__main__':
     test = graphdata.test_set[['head_lab', 'general_relation_lab', 'tail_lab']].to_numpy(dtype = 'str')
     validation = graphdata.validation_set[['head_lab', 'general_relation_lab', 'tail_lab']].to_numpy(dtype = 'str')
     
-    # make pykeen triples object
+    # make pykeen triples objects
     train_triples = TriplesFactory.from_labeled_triples(train, 
                                                         create_inverse_triples = False,
                                                         entity_to_id = graphdata.node_lab2id, 

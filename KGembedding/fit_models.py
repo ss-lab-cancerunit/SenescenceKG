@@ -333,7 +333,7 @@ if __name__ == '__main__':
     
     train, test = model.final_train_set, model.test_set
     
-    # generate negative facts
+    # get positive facts
     negs_per_pos = 5
     pos_facts = train[['head', 'general_relation', 'specific_relation', 'tail']].to_numpy(dtype = 'int32')
     
