@@ -20,7 +20,7 @@ Genes with at least one <img src="https://render.githubusercontent.com/render/ma
 and p < 0.05 for the corresponding coefficient (shown in blue below) were added 
 to the graph. 
 
-![fig1](figures/fig1e.png)
+![fig1](figures/fig1b.png)
 
 We also add genes from four public biological databases: [CSgene](http://csgene.bioinfo-minzhao.org/),
 [Ageing Atlas](https://ngdc.cncb.ac.cn/aging/index), [CellAge](https://genomics.senescence.info/cells/),
