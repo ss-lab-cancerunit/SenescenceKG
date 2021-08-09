@@ -16,7 +16,7 @@ treating study heterogeneity as a random effect:
 Where the random effect design matrix **Z** contains dummy variables for experiments
 and the fixed effect design matrix **X** contains dummy variables for three subtypes of senescence
 (oncogene-induced, replication-induced, and DNA damage-induced). 
-Genes with at least one <img src="https://render.githubusercontent.com/render/math?math=|\hat{\beta}| > 1">
+Genes with at least one absolute estimated log2 fold change greater than one
 and p < 0.05 for the corresponding coefficient (shown in blue below) were added 
 to the graph. 
 
