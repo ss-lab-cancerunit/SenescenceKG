@@ -1,1 +1,4 @@
 # Created by .ignore support plugin (hsz.mobi)
+
+figures/*.ai
+KGembedding/data/KnowledgeGraph
