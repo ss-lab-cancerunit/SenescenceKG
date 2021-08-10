@@ -2,12 +2,12 @@
 
 ### Welcome to my master's thesis! 
 
-Written as a member of the [Samarajiwa lab](https://www.samarajiwa-lab.org/) at the Cambridge MRC cancer unit.
+This project was produced as a member of the [Samarajiwa lab](https://www.samarajiwa-lab.org/) at the Cambridge MRC cancer unit.
 Thank you to the entire group, who have been extremely welcoming, helpful, and supportive
 of my work. Special thanks to Dr. Samarajiwa himself, who has been an invaluable mentor
 throughout the process.
 
-This project explores the biological mechanisms of cellular ageing ("senescence")
+This project explores the biological mechanisms of cellular ageing - also called "senescence" -
 using a purpose-built database constructed 
 from publicly-available data sets and resources related to senescence. 
 We collected gene expression data from 20 different senescence-related experiments 
