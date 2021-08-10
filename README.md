@@ -2,8 +2,8 @@
 
 ### Welcome to my master's thesis! 
 
-This project was produced as a member of the [Samarajiwa lab](https://www.samarajiwa-lab.org/) at the Cambridge MRC cancer unit.
-Thank you to the entire group, who have been extremely welcoming, helpful, and supportive
+This project was undertaken as a member of the [Samarajiwa lab](https://www.samarajiwa-lab.org/) at the Cambridge MRC cancer unit.
+Thank you to the entire group, who have been extremely welcoming, supportive, and helpful
 during my tenure here. Special thanks to Dr. Samarajiwa himself, who has been an invaluable mentor
 throughout the process.
 
@@ -71,7 +71,7 @@ We integrated data from [Pathway Commons](https://www.pathwaycommons.org/),
 [Gene Ontology](http://geneontology.org/), [ReMap](https://remap.univ-amu.fr/),
 and [DrugBank](https://go.drugbank.com/) into the knowledge graph, adding relations between
 senescence-associated genes (identified from the RNA-sequencing analysis and
-the four public gene databases). All data sets are publicly available and can be downloaded from the linked websites. 
+the four public gene databases). All data sets are publicly available and can be downloaded from the links provided at the top. 
 Code used to parse the data sets and construct the graph can be found in [`KGconstruction/`](KGconstruction). 
 An overview of the entities and relations present in the graph is shown below.
 
