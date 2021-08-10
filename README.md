@@ -1,11 +1,46 @@
 # SenescenceKG: An integrative knowledge graph of cellular senescence
 
+### Welcome to my master's thesis! 
+
+This project explores the biological mechanisms of cellular ageing ("senescence")
+using a purpose-built database constructed 
+from publicly-available data sets and resources related to senescence. 
+We collected gene expression data from 20 different senescence-related experiments 
+and used a statistical model to identify genes whose expression varied significantly 
+in senescent (aged) cells compared to healthy ones.
+We used these senescence-associated genes to construct a network database of relationships 
+between genes (including physical interactions between genes, gene annotations, etc.). 
+Then, using relationship data from the database, we implement machine learning models to 
+predict novel biological facts related to cellular senescence. 
+
+### Reproducible research 
+
+For reproducibility purposes, all code and most data files are included here,
+with one exception being data files from [Pathway Commons](https://www.pathwaycommons.org/), 
+[Gene Ontology](http://geneontology.org/), [ReMap](https://remap.univ-amu.fr/),
+and [DrugBank](https://go.drugbank.com/), which are too large to feasibly include here. 
+
+However, these files can be easily obtained from the following direct download links (download will start immediately): 
+- [Pathway Commons](https://www.pathwaycommons.org/archives/PC2/v12/PathwayCommons12.All.hgnc.txt.gz) (large file, ~1Gb)
+- [Gene Ontology OWL](http://purl.obolibrary.org/obo/go.owl)
+- [Gene Ontology annotations](http://geneontology.org/gene-associations/goa_human.gaf.gz)
+- [ReMap](https://remap.univ-amu.fr/storage/remap2020/hg38/MACS2/remap2020_all_macs2_hg38_v1_0.bed.gz) (very large file, ~3.6Gb)
+- [DrugBank](https://go.drugbank.com/releases/latest) (downloading requires DrugBank approval)
+
+For similar reasons, we also omit raw sequencing read files (FASTA files etc) for RNA-sequencing data sets, 
+though gene-level read counts and DESeq2 results for each treatment/control comparison are included in [`RNAseq/data`](RNAseq/data).
+The entire senescence knowledge graph has also been included in json format at
+[`KGembedding/data/KnowledgeGraph/SenescenceKG.json`](KGembedding/data/KnowledgeGraph/SenescenceKG.json),
+as well as the trained entity embeddings for five knowledge graph embedding models, which are in [`KGembedding/data/KnowledgeGraph`](KGembedding/data/KnowledgeGraph), 
+stored as pickled python dictionaries. Conda virtual environment .yml files have been added to the three python project directories
+[KGanalysis](KGanalysis/envs), [KGembedding](KGembedding/envs), and [KGconstruction](KGconstruction/envs).
+
 ## RNA-sequencing meta-analysis
 
 The knowledge graph was constructed with genes identified from a meta-analysis of 33 
 senescent/control comparisons taken from 20 experiments. All relevant files
 can be found in the [`RNAseq/`](RNAseq) directory. Gene read counts and DESeq2's
-estimated log fold changes and p-values are included in [`RNAseq/data`](RNAseq/data). 
+estimated log2 fold changes and p-values are included in [`RNAseq/data`](RNAseq/data). 
 To identify genes with consistent patterns of differential expression, we use
 a linear mixed model to model a gene's estimated log2 fold changes, 
 treating study heterogeneity as a random effect:
