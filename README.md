@@ -44,6 +44,9 @@ Knowledge graph embedding was performed with a custom model ("Hierarchical Trans
 and four existing models from the [PyKeen](https://github.com/pykeen/pykeen) package: 
 TransE, TransR, ConvE, and ComplEx. Hyperparameter searches for all models were 
 implemented using [Optuna](https://github.com/optuna/optuna). 
+All data sets used and produced in the embedding analysis  
+are included in the [`KGembedding/data`](KGembedding/data) directory, 
+including the trained embeddings for the five models and the entire knowledge graph's json file.
 Training was conducted on NVIDIA TITAN V (12 Gb) and NVIDIA TITAN RTX (24 Gb) GPUs. 
 Models were evaluated on the test set using the [adjusted mean rank index](https://arxiv.org/pdf/2002.06914.pdf).
 Results are shown below.
