@@ -14,7 +14,7 @@ We collected gene expression data from 20 different senescence-related experimen
 and used a statistical model to identify genes with senescence-associated expression patterns 
 that are consistently reproduced by different experiments.
 We used these senescence-associated genes to construct a network database of relationships 
-between genes (including physical interactions between genes, gene annotations, etc.). 
+between genes (including physical interactions, gene annotations, etc.). 
 Then, using data from the database, we implement machine learning models to 
 predict novel biological facts related to cellular senescence. 
 
@@ -26,10 +26,10 @@ with one exception being data files from [Pathway Commons](https://www.pathwayco
 and [DrugBank](https://go.drugbank.com/), which are too large to feasibly include in this repository. 
 
 However, these files can be easily obtained from the following direct download links (download will start immediately after opening): 
-- [Pathway Commons](https://www.pathwaycommons.org/archives/PC2/v12/PathwayCommons12.All.hgnc.txt.gz) (large file, ~1Gb)
+- [Pathway Commons](https://www.pathwaycommons.org/archives/PC2/v12/PathwayCommons12.All.hgnc.txt.gz) 
 - [Gene Ontology OWL](http://purl.obolibrary.org/obo/go.owl)
 - [Gene Ontology annotations](http://geneontology.org/gene-associations/goa_human.gaf.gz)
-- [ReMap](https://remap.univ-amu.fr/storage/remap2020/hg38/MACS2/remap2020_all_macs2_hg38_v1_0.bed.gz) (very large file, ~3.6Gb)
+- [ReMap](https://remap.univ-amu.fr/storage/remap2020/hg38/MACS2/remap2020_all_macs2_hg38_v1_0.bed.gz) (large file, ~3.6Gb)
 - [DrugBank](https://go.drugbank.com/releases/latest) (downloading requires DrugBank approval)
 
 For similar reasons, we also omit raw sequencing read files (FASTA files etc) for RNA-sequencing data sets, 
