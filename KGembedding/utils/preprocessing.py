@@ -255,7 +255,7 @@ class GraphParser:
         
         all_facts = pd.concat(dfs, axis = 0)
         
-        # map specific relation labels to indices
+        # map entity and relation labels to indices
         self.embedding_node_id2idx = {node: idx for idx, node in enumerate(np.sort(np.unique(all_facts['head'].append(all_facts['tail']))))}
         self.embedding_node_idx2id = {idx: node for node, idx in self.embedding_node_id2idx.items()}
         self.embedding_node_lab2idx = {self.node_id2lab[node]: self.embedding_node_id2idx[node] for node in self.embedding_node_id2idx.keys()}
