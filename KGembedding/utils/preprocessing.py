@@ -257,7 +257,7 @@ class GraphParser:
         
         # map specific relation labels to indices
         self.embedding_node_id2idx = {node: idx for idx, node in enumerate(np.sort(np.unique(all_facts['head'].append(all_facts['tail']))))}
-        self.embedding_node_idx2idx = {idx: node for node, idx in self.embedding_node_id2idx.items()}
+        self.embedding_node_idx2id = {idx: node for node, idx in self.embedding_node_id2idx.items()}
         self.embedding_node_lab2idx = {self.node_id2lab[node]: self.embedding_node_id2idx[node] for node in self.embedding_node_id2idx.keys()}
         self.embedding_node_idx2lab = {idx: lab for lab, idx in self.embedding_node_lab2idx.items()}
         self.embedding_spec_rel_id2idx = {rel: i for i, rel in enumerate(np.sort(np.unique(all_facts['specific_relation'])))}
