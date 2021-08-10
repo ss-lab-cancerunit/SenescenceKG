@@ -39,7 +39,7 @@ The entire senescence knowledge graph has also been included in json format at
 [`KGembedding/data/KnowledgeGraph/SenescenceKG.json`](KGembedding/data/KnowledgeGraph/SenescenceKG.json),
 as well as the trained entity embeddings for five knowledge graph embedding models, which are in [`KGembedding/data/models`](KGembedding/data/models), 
 stored as pickled python dictionaries. Conda virtual environment .yml files have been added to the three python project directories
-[KGanalysis](KGanalysis/envs), [KGembedding](KGembedding/envs), and [KGconstruction](KGconstruction/envs).
+[`KGanalysis/`](KGanalysis/envs), [`KGembedding/`](KGembedding/envs), and [`KGconstruction/`](KGconstruction/envs).
 
 ## RNA-sequencing meta-analysis
 
