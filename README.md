@@ -11,7 +11,8 @@ This project explores the biological mechanisms of cellular ageing - also called
 using a purpose-built database constructed 
 from publicly-available data sets and resources related to senescence. 
 We collected gene expression data from 20 different senescence-related experiments 
-and used a statistical model to identify genes with senescence-associated expression patterns.
+and used a statistical model to identify genes with senescence-associated expression patterns 
+that are consistently reproduced by different experiments.
 We used these senescence-associated genes to construct a network database of relationships 
 between genes (including physical interactions between genes, gene annotations, etc.). 
 Then, using data from the database, we implement machine learning models to 
@@ -24,7 +25,7 @@ with one exception being data files from [Pathway Commons](https://www.pathwayco
 [Gene Ontology](http://geneontology.org/), [ReMap](https://remap.univ-amu.fr/),
 and [DrugBank](https://go.drugbank.com/), which are too large to feasibly include in this repository. 
 
-However, these files can be easily obtained from the following direct download links (download will start immediately): 
+However, these files can be easily obtained from the following direct download links (download will start immediately after opening): 
 - [Pathway Commons](https://www.pathwaycommons.org/archives/PC2/v12/PathwayCommons12.All.hgnc.txt.gz) (large file, ~1Gb)
 - [Gene Ontology OWL](http://purl.obolibrary.org/obo/go.owl)
 - [Gene Ontology annotations](http://geneontology.org/gene-associations/goa_human.gaf.gz)
@@ -33,6 +34,7 @@ However, these files can be easily obtained from the following direct download l
 
 For similar reasons, we also omit raw sequencing read files (FASTA files etc) for RNA-sequencing data sets, 
 though gene-level read counts and DESeq2 results for each treatment/control comparison are included in [`RNAseq/data`](RNAseq/data).
+
 The entire senescence knowledge graph has also been included in json format at
 [`KGembedding/data/KnowledgeGraph/SenescenceKG.json`](KGembedding/data/KnowledgeGraph/SenescenceKG.json),
 as well as the trained entity embeddings for five knowledge graph embedding models, which are in [`KGembedding/data/models`](KGembedding/data/models), 
@@ -44,7 +46,8 @@ stored as pickled python dictionaries. Conda virtual environment .yml files have
 The knowledge graph was constructed with genes identified from a meta-analysis of 33 
 senescent/control comparisons taken from 20 experiments. All relevant files
 can be found in the [`RNAseq/`](RNAseq) directory. Gene read counts and DESeq2's
-estimated log2 fold changes and p-values are included in [`RNAseq/data`](RNAseq/data). 
+estimated log2 fold changes and p-values for individual experiments are included 
+in [`RNAseq/data`](RNAseq/data), as well as metadata. 
 To identify genes with consistent patterns of differential expression, we use
 a linear mixed model to model a gene's estimated log2 fold changes, 
 treating study heterogeneity as a random effect:
