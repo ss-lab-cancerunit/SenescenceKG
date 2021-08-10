@@ -3,7 +3,7 @@ library(biomaRt)
 library(dplyr)
 library(stringr)
 
-promoters <- read.table('datasets/TFs/allPromoters_roadmap.bed', header = FALSE, sep = '\t',
+promoters <- read.table('data/TFs/allPromoters_roadmap.bed', header = FALSE, sep = '\t',
                         col.names = c('Chr', 'Start', 'End'))
 promoters <- group_split(promoters, Chr) %>%
   lapply(function(df){
@@ -20,5 +20,5 @@ promoter_annotations <- annotatePeakInBatch(promoters_grange, hg_mart, featureTy
 promoters_with_genes <- as.data.frame(promoter_annotations@elementMetadata)
 promoters_with_genes$chr <- as.vector(promoter_annotations@seqnames)
 
-write.table(promoters_with_genes, file = 'datasets/TFs/gene_promoters.tsv', sep = '\t',
+write.table(promoters_with_genes, file = 'data/TFs/gene_promoters.tsv', sep = '\t',
             row.names = FALSE)
