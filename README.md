@@ -1,4 +1,4 @@
-# SenescenceKG: An integrative knowledge graph of cellular senescence
+# An integrative knowledge graph of cellular senescence
 
 ### Welcome to my master's thesis! 
 
@@ -17,7 +17,7 @@ predict novel biological facts related to cellular senescence.
 For reproducibility purposes, all code and most data files are included here,
 with one exception being data files from [Pathway Commons](https://www.pathwaycommons.org/), 
 [Gene Ontology](http://geneontology.org/), [ReMap](https://remap.univ-amu.fr/),
-and [DrugBank](https://go.drugbank.com/), which are too large to feasibly include here. 
+and [DrugBank](https://go.drugbank.com/), which are too large to feasibly include in this repository. 
 
 However, these files can be easily obtained from the following direct download links (download will start immediately): 
 - [Pathway Commons](https://www.pathwaycommons.org/archives/PC2/v12/PathwayCommons12.All.hgnc.txt.gz) (large file, ~1Gb)
@@ -30,7 +30,7 @@ For similar reasons, we also omit raw sequencing read files (FASTA files etc) fo
 though gene-level read counts and DESeq2 results for each treatment/control comparison are included in [`RNAseq/data`](RNAseq/data).
 The entire senescence knowledge graph has also been included in json format at
 [`KGembedding/data/KnowledgeGraph/SenescenceKG.json`](KGembedding/data/KnowledgeGraph/SenescenceKG.json),
-as well as the trained entity embeddings for five knowledge graph embedding models, which are in [`KGembedding/data/KnowledgeGraph`](KGembedding/data/KnowledgeGraph), 
+as well as the trained entity embeddings for five knowledge graph embedding models, which are in [`KGembedding/data/models`](KGembedding/data/models), 
 stored as pickled python dictionaries. Conda virtual environment .yml files have been added to the three python project directories
 [KGanalysis](KGanalysis/envs), [KGembedding](KGembedding/envs), and [KGconstruction](KGconstruction/envs).
 
