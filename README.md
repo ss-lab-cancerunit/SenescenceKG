@@ -6,8 +6,7 @@ This project explores the biological mechanisms of cellular ageing ("senescence"
 using a purpose-built database constructed 
 from publicly-available data sets and resources related to senescence. 
 We collected gene expression data from 20 different senescence-related experiments 
-and used a statistical model to identify genes whose expression varied significantly 
-in senescent (aged) cells compared to healthy ones.
+and used a statistical model to identify genes with senescence-associated expression patterns.
 We used these senescence-associated genes to construct a network database of relationships 
 between genes (including physical interactions between genes, gene annotations, etc.). 
 Then, using relationship data from the database, we implement machine learning models to 
