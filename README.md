@@ -4,7 +4,7 @@
 
 This project was produced as a member of the [Samarajiwa lab](https://www.samarajiwa-lab.org/) at the Cambridge MRC cancer unit.
 Thank you to the entire group, who have been extremely welcoming, helpful, and supportive
-of my work. Special thanks to Dr. Samarajiwa himself, who has been an invaluable mentor
+during my tenure here. Special thanks to Dr. Samarajiwa himself, who has been an invaluable mentor
 throughout the process.
 
 This project explores the biological mechanisms of cellular ageing - also called "senescence" -
