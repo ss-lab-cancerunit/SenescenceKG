@@ -2,6 +2,11 @@
 
 ### Welcome to my master's thesis! 
 
+Written as a member of the [Samarajiwa lab](https://www.samarajiwa-lab.org/) at the Cambridge MRC cancer unit.
+Thank you to the entire group, who have been extremely welcoming, helpful, and supportive
+of my work. Special thanks to Dr. Samarajiwa himself, who has been an invaluable mentor
+throughout the process.
+
 This project explores the biological mechanisms of cellular ageing ("senescence")
 using a purpose-built database constructed 
 from publicly-available data sets and resources related to senescence. 
@@ -9,7 +14,7 @@ We collected gene expression data from 20 different senescence-related experimen
 and used a statistical model to identify genes with senescence-associated expression patterns.
 We used these senescence-associated genes to construct a network database of relationships 
 between genes (including physical interactions between genes, gene annotations, etc.). 
-Then, using relationship data from the database, we implement machine learning models to 
+Then, using data from the database, we implement machine learning models to 
 predict novel biological facts related to cellular senescence. 
 
 ### Reproducible research 
