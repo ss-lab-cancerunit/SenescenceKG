@@ -21,7 +21,7 @@ hoping to reveal interesting properties of the biological networks that govern t
 Using facts from the database, we implemented machine learning models to
 predict novel biological facts related to cellular senescence.
 
-### Reproducible research 
+## Reproducible research 
 
 For reproducibility purposes, all code and most data files are included here,
 with one exception being data files from [Pathway Commons](https://www.pathwaycommons.org/), 
