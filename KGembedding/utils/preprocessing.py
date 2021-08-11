@@ -21,7 +21,6 @@ class GraphParser:
         self.node_entries = {}
         self.node_id2lab = {}
         self.node_lab2id = {}
-        self.node_id2idx = {}
         self.relation_entries = {}
         self.general_relations = []
         self.pathway_specific_relations = []
@@ -85,6 +84,7 @@ class GraphParser:
                          'tail_lab': [],
                          'tail_type': []}
         
+        # loop over relations, add facts to data frame
         for rel in self.relation_entries.values():
             head = int(rel['start']['id'])
             tail = int(rel['end']['id'])
@@ -161,6 +161,7 @@ class GraphParser:
         
         # get leaked triplets
         leaked_triplets = [triplet for triplet in test_triplets_to_idx.keys() if triplet in train_triplets_to_idx.keys()]
+        
         # get indices of leaked triplets
         leaked_triplet_idx = {(h, r, t): (train_triplets_to_idx[(h, r, t)], 
                                           test_triplets_to_idx[(h, r, t)])
@@ -171,7 +172,8 @@ class GraphParser:
         train_drop_idx = []
         test_new_facts = []
         test_drop_idx = []
-        # iterate through leaked triplets and alternate between moving triplets to test and train sets
+        
+        # iterate through leaked triplets and alternate between allocating triplets to test and train sets
         for (h, r, t) in leaked_triplets:
             train_idx, test_idx = leaked_triplet_idx[(h, r, t)]
             if train_to_test == True:
@@ -184,11 +186,13 @@ class GraphParser:
                 test_drop_idx.append(test_idx)
             train_to_test = not train_to_test
             
+        # swap entities from the train and test sets
         train = train.drop(train_drop_idx, axis = 0)
         test = test.drop(test_drop_idx, axis = 0)
         train = pd.concat([train, pd.DataFrame(train_new_facts)])
         test = pd.concat([test, pd.DataFrame(test_new_facts)])
         
+        # shuffle instances
         train = train.sample(frac = 1, random_state = state)
         test = test.sample(frac = 1, random_state = state)
                 

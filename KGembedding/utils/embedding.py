@@ -111,7 +111,7 @@ class CustomEmbeddingModel(TransR, GraphParser):
                                              new_tails]
                                             )
         
-        # put into a single tensor and sort to match the order of the input facts
+        # put all corrupted facts into a single tensor and sort to match the order of the input facts
         all_neg_facts = tf.concat([corrupted_head_facts, corrupted_tail_facts], 0)
         sorted_index = tf.argsort(tf.concat([replace_head, replace_tail], 0))
         sorted_neg_facts = tf.gather(all_neg_facts, sorted_index) 
@@ -127,6 +127,7 @@ class CustomEmbeddingModel(TransR, GraphParser):
         mean_tails_per_head = np.empty(shape = len(facts), dtype = 'float32')
         # get the mean number of head entities associated with each tail for general relation M/specific relation r
         mean_heads_per_tail = np.empty(shape = len(facts), dtype = 'float32')
+        
         for i, rels in enumerate(zip(facts[:,1], facts[:,2])):
             mean_tails_per_head[i] = self.mean_tails_per_head[rels]
             mean_heads_per_tail[i] = self.mean_heads_per_tail[rels]
