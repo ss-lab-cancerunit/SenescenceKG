@@ -2,21 +2,24 @@
 
 ### Welcome to my master's thesis! 
 
-This project was undertaken as a member of the [Samarajiwa lab](https://www.samarajiwa-lab.org/) at the Cambridge MRC cancer unit.
+I undertook this project as a member of the [Samarajiwa lab](https://www.samarajiwa-lab.org/) at the Cambridge MRC cancer unit.
 Thank you to the entire group, who have been extremely welcoming, supportive, and helpful
-during my tenure here. Special thanks to Dr. Samarajiwa himself, who has been an invaluable mentor
-throughout the process.
+during my time here. Special thanks to Dr. Samarajiwa himself, who has been an invaluable mentor
+throughout this entire process.
 
-This project explores the biological mechanisms of cellular ageing - also called "senescence" -
-using a purpose-built database constructed 
-from publicly-available data sets and resources related to senescence. 
-We collected gene expression data from 20 different senescence-related experiments 
-and used a statistical model to identify genes with senescence-associated expression patterns 
-that are consistently reproduced by different experiments.
-We used these senescence-associated genes to construct a network database of relationships 
-between genes (including physical interactions, gene annotations, etc.). 
-Then, using data from the database, we implement machine learning models to 
-predict novel biological facts related to cellular senescence. 
+## Non-technical summary
+
+This project explores the biological mechanisms of cellular ageing - also known as "senescence" -
+using a purpose-built database, constructed 
+from publicly-available data sets collected in experiments studying senescent cells. 
+We collected gene expression data from 20 different experiments 
+and used a statistical model to identify genes with senescence associations
+that were consistently reproduced across different experiments.
+We constructed a network database of relationships 
+between these genes (including physical interactions, gene annotations, etc.),
+hoping to reveal interesting properties of the biological networks that govern the ageing process. 
+Using facts from the database, we implemented machine learning models to
+predict novel biological facts related to cellular senescence.
 
 ### Reproducible research 
 
@@ -47,7 +50,7 @@ The knowledge graph was constructed with genes identified from a meta-analysis o
 senescent/control comparisons taken from 20 experiments. All relevant files
 can be found in the [`RNAseq/`](RNAseq) directory. Gene read counts and DESeq2's
 estimated log2 fold changes and p-values for individual experiments are included 
-in [`RNAseq/data`](RNAseq/data), as well as metadata. 
+in [`RNAseq/data`](RNAseq/data), as well as comparison and sample metadata in [`RNAseq/metadata`](RNAseq/metadata). 
 To identify genes with consistent patterns of differential expression, we use
 a linear mixed model to model a gene's estimated log2 fold changes, 
 treating study heterogeneity as a random effect:
