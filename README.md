@@ -48,7 +48,7 @@ stored as pickled python dictionaries. Conda virtual environment .yml files have
 
 ```{python}
 .
-├── KGanalysis      # Directory for supervised learning models using gene embeddings
+├── KGanalysis      # Directory with code for training supervised learning models on gene embeddings
     ├── data        # Directory storing data needed to train classifiers
         ├── embeddings      # Directory storing KG embeddings as pickle files
         ├── classifier      # Directory storing hyperparameter search results
@@ -56,7 +56,7 @@ stored as pickled python dictionaries. Conda virtual environment .yml files have
     ├── envs        # Directory storing conda environment .yml file
     ├── classifier_hp_search.py     # Script for running classifier hyperparameter search 
     └── GeneClassifier.ipynb        # Jupyter notebook for training and visualisation final classification models
-├── KGconstruction      # Code for constructing the knowledge graph
+├── KGconstruction      # Directory with code for constructing the knowledge graph
     ├── data        # Directory storing data needed to construct the KG
         ├── TFs     # Directory storing gene promoter data
         └── genesets        # Directory storing gene sets used to construct the graph   
@@ -65,7 +65,7 @@ stored as pickled python dictionaries. Conda virtual environment .yml files have
     ├── build_graph.py      # Script for building the graph, takes database file names as command line arguments
     ├── merge_genesets.py       # Script for merging gene sets from the four public senescence gene databases
     └── peaks_to_genes.py       # Script for mapping Roadmap promoter regions to genes
-├── KGembedding     # Directory for knowledge graph embedding models
+├── KGembedding     # Directory with code for knowledge graph embedding models
     ├── data        # Directory storing data needed to train embeddings
         ├── KnowledgeGraph      # Directory storing the knowledge graph as a json file
         ├── hyperparams     # Directory storing embedding model hyperparamter search results
