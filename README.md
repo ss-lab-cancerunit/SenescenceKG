@@ -41,8 +41,7 @@ though gene-level read counts and DESeq2 results for each treatment/control comp
 The entire senescence knowledge graph has also been included in json format at
 [`KGembedding/data/KnowledgeGraph/SenescenceKG.json`](KGembedding/data/KnowledgeGraph/SenescenceKG.json),
 as well as the trained entity embeddings for five knowledge graph embedding models, which are in [`KGembedding/data/models`](KGembedding/data/models), 
-stored as pickled python dictionaries. Conda virtual environment .yml files have been added to the three python project directories
-[`KGanalysis/`](KGanalysis/envs), [`KGembedding/`](KGembedding/envs), and [`KGconstruction/`](KGconstruction/envs).
+stored as pickled python dictionaries. A .yml file listing all required packages has been added to the [`\envs`](envs) directory.
 
 ## Project overview
 
