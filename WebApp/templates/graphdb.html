@@ -1,0 +1,62 @@
+{% extends 'layout.html' %}
+{% block content %}
+<head>
+    <title>DataViz</title>
+    <style type="text/css">
+        #viz {
+            width: 500px;
+            height: 500px;
+        }
+        .float-container {
+            border: 3px solid #fff;
+            padding: 20px;
+        }
+        .float-child {
+            width: 60%;
+            height: 60%;
+            float: left;
+            padding: 20px;
+            border: 2px solid #fff;
+        }
+    </style>
+    <script src="https://rawgit.com/neo4j-contrib/neovis.js/master/dist/neovis.js"></script>
+</head>
+<script>
+    function draw() {
+        var config = {
+            container_id: "viz",
+            server_url: "bolt://ss09.hutchison-mrc.cam.ac.uk:7687",
+            server_user: "neo4j",
+            server_password: "doxorubicin",
+            labels: {
+                "Gene": {
+                    caption: "symbol",
+                },
+                "GeneOntologyTerm": {
+                    caption: "description"
+                }
+            },
+            relationships: {
+                [NeoVis.NEOVIS_DEFAULT_CONFIG]: {
+                    caption: "defaultCaption"
+                }
+            },
+            initial_cypher: "MATCH p=()-[r]->() RETURN p LIMIT 15"
+        }
+        var viz = new NeoVis.default(config);
+        viz.render();
+    }
+</script>
+<body>
+    <div class="float-container">
+        <div class="float-child" id="viz">
+            <script type="text/javascript">
+                draw();
+            </script>
+        </div>
+        <div class="float-child">
+            Hello world!
+        </div>
+    </div>
+</body>
+{% endblock content %}
