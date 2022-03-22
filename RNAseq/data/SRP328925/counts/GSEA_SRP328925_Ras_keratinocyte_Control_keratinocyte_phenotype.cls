@@ -1,0 +1,3 @@
+12	2	1
+#	Ras_keratinocyte	Control_keratinocyte
+Ras_keratinocyte Ras_keratinocyte Ras_keratinocyte Ras_keratinocyte Ras_keratinocyte Ras_keratinocyte Control_keratinocyte Control_keratinocyte Control_keratinocyte Control_keratinocyte Control_keratinocyte Control_keratinocyte

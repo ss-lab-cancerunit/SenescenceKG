@@ -1,0 +1,66 @@
+
+        ==========     _____ _    _ ____  _____  ______          _____  
+        =====         / ____| |  | |  _ \|  __ \|  ____|   /\   |  __ \ 
+          =====      | (___ | |  | | |_) | |__) | |__     /  \  | |  | |
+            ====      \___ \| |  | |  _ <|  _  /|  __|   / /\ \ | |  | |
+              ====    ____) | |__| | |_) | | \ \| |____ / ____ \| |__| |
+        ==========   |_____/ \____/|____/|_|  \_\______/_/    \_\_____/
+       Rsubread 1.32.2
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 4 BAM files                                      ||
+||                           S SRR1485144_trim.bam                            ||
+||                           S SRR1485145_trim.bam                            ||
+||                           S SRR1485146_trim.bam                            ||
+||                           S SRR1485147_trim.bam                            ||
+||                                                                            ||
+||              Annotation : gencode.v35.primary_assembly.annotation.gtf  ... ||
+||      Dir for temp files : .                                                ||
+||                 Threads : 16                                               ||
+||                   Level : meta-feature level                               ||
+||              Paired-end : no                                               ||
+||      Multimapping reads : counted                                          ||
+|| Multi-overlapping reads : counted                                          ||
+||   Min overlapping bases : 1                                                ||
+||                                                                            ||
+\\===================== http://subread.sourceforge.net/ ======================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file gencode.v35.primary_assembly.annotation.gtf ...       ||
+||    Features : 1398698                                                      ||
+||    Meta-features : 60715                                                   ||
+||    Chromosomes/contigs : 47                                                ||
+||                                                                            ||
+|| Process BAM file SRR1485144_trim.bam...                                    ||
+||    Single-end reads are included.                                          ||
+||    Assign alignments to features...                                        ||
+||    Total alignments : 15113639                                             ||
+||    Successfully assigned alignments : 13316740 (88.1%)                     ||
+||    Running time : 0.08 minutes                                             ||
+||                                                                            ||
+|| Process BAM file SRR1485145_trim.bam...                                    ||
+||    Single-end reads are included.                                          ||
+||    Assign alignments to features...                                        ||
+||    Total alignments : 50448468                                             ||
+||    Successfully assigned alignments : 39980816 (79.3%)                     ||
+||    Running time : 0.08 minutes                                             ||
+||                                                                            ||
+|| Process BAM file SRR1485146_trim.bam...                                    ||
+||    Single-end reads are included.                                          ||
+||    Assign alignments to features...                                        ||
+||    Total alignments : 33055906                                             ||
+||    Successfully assigned alignments : 29039844 (87.9%)                     ||
+||    Running time : 0.15 minutes                                             ||
+||                                                                            ||
+|| Process BAM file SRR1485147_trim.bam...                                    ||
+||    Single-end reads are included.                                          ||
+||    Assign alignments to features...                                        ||
+||    Total alignments : 27668979                                             ||
+||    Successfully assigned alignments : 24344350 (88.0%)                     ||
+||    Running time : 0.04 minutes                                             ||
+||                                                                            ||
+||                                                                            ||
+\\===================== http://subread.sourceforge.net/ ======================//
+

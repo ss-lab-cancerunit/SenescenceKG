@@ -1,0 +1,307 @@
+
+        ==========     _____ _    _ ____  _____  ______          _____  
+        =====         / ____| |  | |  _ \|  __ \|  ____|   /\   |  __ \ 
+          =====      | (___ | |  | | |_) | |__) | |__     /  \  | |  | |
+            ====      \___ \| |  | |  _ <|  _  /|  __|   / /\ \ | |  | |
+              ====    ____) | |__| | |_) | | \ \| |____ / ____ \| |__| |
+        ==========   |_____/ \____/|____/|_|  \_\______/_/    \_\_____/
+       Rsubread 1.32.2
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 18 BAM files                                     ||
+||                           P SRR15188539_1_trim.bam                         ||
+||                           P SRR15188540_1_trim.bam                         ||
+||                           P SRR15188541_1_trim.bam                         ||
+||                           P SRR15188542_1_trim.bam                         ||
+||                           P SRR15188543_1_trim.bam                         ||
+||                           P SRR15188544_1_trim.bam                         ||
+||                           P SRR15188545_1_trim.bam                         ||
+||                           P SRR15188546_1_trim.bam                         ||
+||                           P SRR15188547_1_trim.bam                         ||
+||                           P SRR15188548_1_trim.bam                         ||
+||                           P SRR15188549_1_trim.bam                         ||
+||                           P SRR15188550_1_trim.bam                         ||
+||                           P SRR15188551_1_trim.bam                         ||
+||                           P SRR15188552_1_trim.bam                         ||
+||                           P SRR15188553_1_trim.bam                         ||
+||                           P SRR15188554_1_trim.bam                         ||
+||                           P SRR15188555_1_trim.bam                         ||
+||                           P SRR15188556_1_trim.bam                         ||
+||                                                                            ||
+||              Annotation : gencode.v35.primary_assembly.annotation.gtf  ... ||
+||      Dir for temp files : .                                                ||
+||                 Threads : 16                                               ||
+||                   Level : meta-feature level                               ||
+||              Paired-end : yes                                              ||
+||      Multimapping reads : counted                                          ||
+|| Multi-overlapping reads : counted                                          ||
+||   Min overlapping bases : 1                                                ||
+||                                                                            ||
+||          Chimeric reads : counted                                          ||
+||        Both ends mapped : not required                                     ||
+||                                                                            ||
+\\===================== http://subread.sourceforge.net/ ======================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file gencode.v35.primary_assembly.annotation.gtf ...       ||
+||    Features : 1398698                                                      ||
+||    Meta-features : 60715                                                   ||
+||    Chromosomes/contigs : 47                                                ||
+||                                                                            ||
+|| Process BAM file SRR15188539_1_trim.bam...                                 ||
+||    Paired-end reads are included.                                          ||
+||    Assign alignments (paired-end) to features...                           ||
+||                                                                            ||
+||    WARNING: reads from the same pair were found not adjacent to each       ||
+||             other in the input (due to read sorting by location or         ||
+||             reporting of multi-mapping read pairs).                        ||
+||                                                                            ||
+||    Pairing up the read pairs.                                              ||
+||                                                                            ||
+||    Total alignments : 28502662                                             ||
+||    Successfully assigned alignments : 23799146 (83.5%)                     ||
+||    Running time : 0.13 minutes                                             ||
+||                                                                            ||
+|| Process BAM file SRR15188540_1_trim.bam...                                 ||
+||    Paired-end reads are included.                                          ||
+||    Assign alignments (paired-end) to features...                           ||
+||                                                                            ||
+||    WARNING: reads from the same pair were found not adjacent to each       ||
+||             other in the input (due to read sorting by location or         ||
+||             reporting of multi-mapping read pairs).                        ||
+||                                                                            ||
+||    Pairing up the read pairs.                                              ||
+||                                                                            ||
+||    Total alignments : 28978065                                             ||
+||    Successfully assigned alignments : 23816026 (82.2%)                     ||
+||    Running time : 0.26 minutes                                             ||
+||                                                                            ||
+|| Process BAM file SRR15188541_1_trim.bam...                                 ||
+||    Paired-end reads are included.                                          ||
+||    Assign alignments (paired-end) to features...                           ||
+||                                                                            ||
+||    WARNING: reads from the same pair were found not adjacent to each       ||
+||             other in the input (due to read sorting by location or         ||
+||             reporting of multi-mapping read pairs).                        ||
+||                                                                            ||
+||    Pairing up the read pairs.                                              ||
+||                                                                            ||
+||    Total alignments : 27516821                                             ||
+||    Successfully assigned alignments : 22846088 (83.0%)                     ||
+||    Running time : 0.13 minutes                                             ||
+||                                                                            ||
+|| Process BAM file SRR15188542_1_trim.bam...                                 ||
+||    Paired-end reads are included.                                          ||
+||    Assign alignments (paired-end) to features...                           ||
+||                                                                            ||
+||    WARNING: reads from the same pair were found not adjacent to each       ||
+||             other in the input (due to read sorting by location or         ||
+||             reporting of multi-mapping read pairs).                        ||
+||                                                                            ||
+||    Pairing up the read pairs.                                              ||
+||                                                                            ||
+||    Total alignments : 27402987                                             ||
+||    Successfully assigned alignments : 22115847 (80.7%)                     ||
+||    Running time : 0.25 minutes                                             ||
+||                                                                            ||
+|| Process BAM file SRR15188543_1_trim.bam...                                 ||
+||    Paired-end reads are included.                                          ||
+||    Assign alignments (paired-end) to features...                           ||
+||                                                                            ||
+||    WARNING: reads from the same pair were found not adjacent to each       ||
+||             other in the input (due to read sorting by location or         ||
+||             reporting of multi-mapping read pairs).                        ||
+||                                                                            ||
+||    Pairing up the read pairs.                                              ||
+||                                                                            ||
+||    Total alignments : 25880479                                             ||
+||    Successfully assigned alignments : 21794941 (84.2%)                     ||
+||    Running time : 0.23 minutes                                             ||
+||                                                                            ||
+|| Process BAM file SRR15188544_1_trim.bam...                                 ||
+||    Paired-end reads are included.                                          ||
+||    Assign alignments (paired-end) to features...                           ||
+||                                                                            ||
+||    WARNING: reads from the same pair were found not adjacent to each       ||
+||             other in the input (due to read sorting by location or         ||
+||             reporting of multi-mapping read pairs).                        ||
+||                                                                            ||
+||    Pairing up the read pairs.                                              ||
+||                                                                            ||
+||    Total alignments : 30783841                                             ||
+||    Successfully assigned alignments : 26560845 (86.3%)                     ||
+||    Running time : 0.27 minutes                                             ||
+||                                                                            ||
+|| Process BAM file SRR15188545_1_trim.bam...                                 ||
+||    Paired-end reads are included.                                          ||
+||    Assign alignments (paired-end) to features...                           ||
+||                                                                            ||
+||    WARNING: reads from the same pair were found not adjacent to each       ||
+||             other in the input (due to read sorting by location or         ||
+||             reporting of multi-mapping read pairs).                        ||
+||                                                                            ||
+||    Pairing up the read pairs.                                              ||
+||                                                                            ||
+||    Total alignments : 36955436                                             ||
+||    Successfully assigned alignments : 27160201 (73.5%)                     ||
+||    Running time : 0.41 minutes                                             ||
+||                                                                            ||
+|| Process BAM file SRR15188546_1_trim.bam...                                 ||
+||    Paired-end reads are included.                                          ||
+||    Assign alignments (paired-end) to features...                           ||
+||                                                                            ||
+||    WARNING: reads from the same pair were found not adjacent to each       ||
+||             other in the input (due to read sorting by location or         ||
+||             reporting of multi-mapping read pairs).                        ||
+||                                                                            ||
+||    Pairing up the read pairs.                                              ||
+||                                                                            ||
+||    Total alignments : 36512786                                             ||
+||    Successfully assigned alignments : 26300697 (72.0%)                     ||
+||    Running time : 0.41 minutes                                             ||
+||                                                                            ||
+|| Process BAM file SRR15188547_1_trim.bam...                                 ||
+||    Paired-end reads are included.                                          ||
+||    Assign alignments (paired-end) to features...                           ||
+||                                                                            ||
+||    WARNING: reads from the same pair were found not adjacent to each       ||
+||             other in the input (due to read sorting by location or         ||
+||             reporting of multi-mapping read pairs).                        ||
+||                                                                            ||
+||    Pairing up the read pairs.                                              ||
+||                                                                            ||
+||    Total alignments : 33007229                                             ||
+||    Successfully assigned alignments : 26032193 (78.9%)                     ||
+||    Running time : 0.34 minutes                                             ||
+||                                                                            ||
+|| Process BAM file SRR15188548_1_trim.bam...                                 ||
+||    Paired-end reads are included.                                          ||
+||    Assign alignments (paired-end) to features...                           ||
+||                                                                            ||
+||    WARNING: reads from the same pair were found not adjacent to each       ||
+||             other in the input (due to read sorting by location or         ||
+||             reporting of multi-mapping read pairs).                        ||
+||                                                                            ||
+||    Pairing up the read pairs.                                              ||
+||                                                                            ||
+||    Total alignments : 29780923                                             ||
+||    Successfully assigned alignments : 21842457 (73.3%)                     ||
+||    Running time : 0.32 minutes                                             ||
+||                                                                            ||
+|| Process BAM file SRR15188549_1_trim.bam...                                 ||
+||    Paired-end reads are included.                                          ||
+||    Assign alignments (paired-end) to features...                           ||
+||                                                                            ||
+||    WARNING: reads from the same pair were found not adjacent to each       ||
+||             other in the input (due to read sorting by location or         ||
+||             reporting of multi-mapping read pairs).                        ||
+||                                                                            ||
+||    Pairing up the read pairs.                                              ||
+||                                                                            ||
+||    Total alignments : 28088092                                             ||
+||    Successfully assigned alignments : 23197805 (82.6%)                     ||
+||    Running time : 0.27 minutes                                             ||
+||                                                                            ||
+|| Process BAM file SRR15188550_1_trim.bam...                                 ||
+||    Paired-end reads are included.                                          ||
+||    Assign alignments (paired-end) to features...                           ||
+||                                                                            ||
+||    WARNING: reads from the same pair were found not adjacent to each       ||
+||             other in the input (due to read sorting by location or         ||
+||             reporting of multi-mapping read pairs).                        ||
+||                                                                            ||
+||    Pairing up the read pairs.                                              ||
+||                                                                            ||
+||    Total alignments : 42863623                                             ||
+||    Successfully assigned alignments : 32518595 (75.9%)                     ||
+||    Running time : 0.29 minutes                                             ||
+||                                                                            ||
+|| Process BAM file SRR15188551_1_trim.bam...                                 ||
+||    Paired-end reads are included.                                          ||
+||    Assign alignments (paired-end) to features...                           ||
+||                                                                            ||
+||    WARNING: reads from the same pair were found not adjacent to each       ||
+||             other in the input (due to read sorting by location or         ||
+||             reporting of multi-mapping read pairs).                        ||
+||                                                                            ||
+||    Pairing up the read pairs.                                              ||
+||                                                                            ||
+||    Total alignments : 26956920                                             ||
+||    Successfully assigned alignments : 21601798 (80.1%)                     ||
+||    Running time : 0.14 minutes                                             ||
+||                                                                            ||
+|| Process BAM file SRR15188552_1_trim.bam...                                 ||
+||    Paired-end reads are included.                                          ||
+||    Assign alignments (paired-end) to features...                           ||
+||                                                                            ||
+||    WARNING: reads from the same pair were found not adjacent to each       ||
+||             other in the input (due to read sorting by location or         ||
+||             reporting of multi-mapping read pairs).                        ||
+||                                                                            ||
+||    Pairing up the read pairs.                                              ||
+||                                                                            ||
+||    Total alignments : 33141386                                             ||
+||    Successfully assigned alignments : 25274533 (76.3%)                     ||
+||    Running time : 0.34 minutes                                             ||
+||                                                                            ||
+|| Process BAM file SRR15188553_1_trim.bam...                                 ||
+||    Paired-end reads are included.                                          ||
+||    Assign alignments (paired-end) to features...                           ||
+||                                                                            ||
+||    WARNING: reads from the same pair were found not adjacent to each       ||
+||             other in the input (due to read sorting by location or         ||
+||             reporting of multi-mapping read pairs).                        ||
+||                                                                            ||
+||    Pairing up the read pairs.                                              ||
+||                                                                            ||
+||    Total alignments : 31039749                                             ||
+||    Successfully assigned alignments : 23957593 (77.2%)                     ||
+||    Running time : 0.31 minutes                                             ||
+||                                                                            ||
+|| Process BAM file SRR15188554_1_trim.bam...                                 ||
+||    Paired-end reads are included.                                          ||
+||    Assign alignments (paired-end) to features...                           ||
+||                                                                            ||
+||    WARNING: reads from the same pair were found not adjacent to each       ||
+||             other in the input (due to read sorting by location or         ||
+||             reporting of multi-mapping read pairs).                        ||
+||                                                                            ||
+||    Pairing up the read pairs.                                              ||
+||                                                                            ||
+||    Total alignments : 31781150                                             ||
+||    Successfully assigned alignments : 23778284 (74.8%)                     ||
+||    Running time : 0.21 minutes                                             ||
+||                                                                            ||
+|| Process BAM file SRR15188555_1_trim.bam...                                 ||
+||    Paired-end reads are included.                                          ||
+||    Assign alignments (paired-end) to features...                           ||
+||                                                                            ||
+||    WARNING: reads from the same pair were found not adjacent to each       ||
+||             other in the input (due to read sorting by location or         ||
+||             reporting of multi-mapping read pairs).                        ||
+||                                                                            ||
+||    Pairing up the read pairs.                                              ||
+||                                                                            ||
+||    Total alignments : 39131165                                             ||
+||    Successfully assigned alignments : 28253489 (72.2%)                     ||
+||    Running time : 0.49 minutes                                             ||
+||                                                                            ||
+|| Process BAM file SRR15188556_1_trim.bam...                                 ||
+||    Paired-end reads are included.                                          ||
+||    Assign alignments (paired-end) to features...                           ||
+||                                                                            ||
+||    WARNING: reads from the same pair were found not adjacent to each       ||
+||             other in the input (due to read sorting by location or         ||
+||             reporting of multi-mapping read pairs).                        ||
+||                                                                            ||
+||    Pairing up the read pairs.                                              ||
+||                                                                            ||
+||    Total alignments : 30384138                                             ||
+||    Successfully assigned alignments : 22847457 (75.2%)                     ||
+||    Running time : 0.32 minutes                                             ||
+||                                                                            ||
+||                                                                            ||
+\\===================== http://subread.sourceforge.net/ ======================//
+

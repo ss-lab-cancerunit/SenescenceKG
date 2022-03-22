@@ -1,4 +1,5 @@
 experiment,comparison,senescence,immortalised
+SRP043644,H2O2_Control,DNA-damage,No
 SRP045441,PD30_Control,Replicative,Yes
 SRP050179,PD57_IMR90_Control_IMR90,Replicative,No
 SRP050179,PD57_WI38_Control_WI38,Replicative,No
@@ -13,6 +14,7 @@ SRP113329,RAS_Control,Oncogene,No
 SRP121031,IR_Control,DNA-damage,No
 SRP121031,PD78_Control,Replicative,No
 SRP139787,senescent_growing,Oncogene,No
+SRP155552,PD55_Control,Replicative,No
 SRP175158,Passage36_Control,Replicative,No
 SRP193116,AKT1_Control,Oncogene,Yes
 SRP193843,RAF1_Control_RAF1,Oncogene,Yes
@@ -32,3 +34,5 @@ SRP285793,IR_Control,DNA-damage,Yes
 SRP290938,H2O2_Control,DNA-damage,No
 SRP304377,Doxorubicin_Control,DNA-damage,No
 SRP310859,Bleomycin_Control,DNA-damage,No
+SRP328925,p16_IMR90_Control_IMR90,DNA-damage,No
+SRP328925,Ras_keratinocyte_Control_keratinocyte,Oncogene,No

@@ -47,42 +47,6 @@ adjusted_p_values <- p.adjust(c(MM_results$p_DNAdamage,
 adj_p_matrix <- matrix(adjusted_p_values, ncol = 3)
 MM_results[,c('adj_p_DNAdamage', 'adj_p_Oncogene', 'adj_p_Replicative')] <- adj_p_matrix
 
-# score genes based on log2FC^2 / SE
-gene_score_matrix <- matrix(NA, nrow = nrow(keep_lfcs), 
-                            ncol = nrow(metadata))
-rownames(gene_score_matrix) <- keep_genes
-colnames(gene_score_matrix) <- paste(metadata$experiment, metadata$comparison, sep = '_')
-
-for(i in 1:nrow(metadata)){
-  LFCs <- keep_lfcs[,i]
-  SEs <- keep_SEs[,i]
-  gene_score_matrix[,i] <- abs(LFCs*2 / SEs)
-}
-
-# rank genes from the scores
-gene_rank_matrix <- apply(gene_score_matrix, 2, 
-                          function(col) rank(-col, na.last = 'keep'))
-
-# get the number of non-NA genes per study
-genes_per_study <- apply(gene_rank_matrix, 2, function(col) sum(!is.na(col)))
-
-writeLines('Running permutation test meta-analysis...')
-
-# run permutation tests on all genes
-permutation_pvalues <- permutationTest(gene_rank_matrix, genes_per_study)
-permutation_adj_p <- p.adjust(permutation_pvalues, method = 'BH')
-permutation_results <- data.frame('ensembl' = names(permutation_pvalues),
-                                  'p_Permutation' = permutation_pvalues,
-                                  'adj_p_Permutation' = permutation_adj_p)
-
-# join permutation results with mixed model results
-ME_results <- full_join(MM_results, 
-                        permutation_results, 
-                        by = 'ensembl', 
-                        all = TRUE)
-
-ME_results$Permutation_DE <- ME_results$adj_p_Permutation < 0.05
-
-write.csv(ME_results, 'data/meta_analysis_results.csv', row.names = F)
+write.csv(MM_results, 'data/meta_analysis_results.csv', row.names = F)
 
 

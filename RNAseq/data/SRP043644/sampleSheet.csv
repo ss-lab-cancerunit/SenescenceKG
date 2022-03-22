@@ -1,0 +1,5 @@
+ID,fileName,fileNamePE,experiment,condition,replicate,merge,pairedEnd,adapter,trimQuality,adapterPE,trimQualityPE
+SRR1485144,,,SRP043644,Control,1,None,FALSE,,,,
+SRR1485145,,,SRP043644,Control,2,None,FALSE,,,,
+SRR1485146,,,SRP043644,H2O2,1,None,FALSE,,,,
+SRR1485147,,,SRP043644,H2O2,2,None,FALSE,,,,
