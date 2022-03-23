@@ -190,7 +190,6 @@ class CustomEmbeddingModel(TransR, GraphParser):
     
     # given a relation h, M, r, t and a set of negative head/tail entities, generate an evaluation set
     @staticmethod
-    @jit(nopython = True)
     def makeEvaluationSet(h, M, r, t, neg_h, neg_t) -> np.ndarray:
 
         facts = np.empty(shape = (1 + len(neg_t) + len(neg_h), 4), dtype = 'int32')
