@@ -1,3 +1,4 @@
 # Created by .ignore support plugin (hsz.mobi)
 personal_access_token
 figures/*.ai
+.Rproj.user
