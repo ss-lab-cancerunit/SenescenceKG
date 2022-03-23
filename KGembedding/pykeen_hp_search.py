@@ -74,6 +74,7 @@ if __name__ == '__main__':
         negative_sampler_kwargs = {'num_negs_per_pos': 5},
         loss = 'MarginRankingLoss',
         optimizer = 'Adam',
+        metric = 'amri',
         optimizer_kwargs_ranges = {'lr': dict(type = float, low = 0.0001, high = 0.1, log = True)},
         negative_sampler = 'Bernoulli',
         training_loop = 'sLCWA',
