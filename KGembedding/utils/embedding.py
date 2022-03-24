@@ -1,10 +1,7 @@
 import numpy as np
 import pandas as pd
-import json
 import tensorflow as tf
-import optuna
 import random
-from numba import jit
 from scipy.stats import rankdata
 
 from utils.transR import TransR
@@ -193,11 +190,12 @@ class CustomEmbeddingModel(TransR, GraphParser):
     def makeEvaluationSet(h, M, r, t, neg_h, neg_t) -> np.ndarray:
 
         facts = np.empty(shape = (1 + len(neg_t) + len(neg_h), 4), dtype = 'int32')
-        facts[:(len(neg_t)+1), 0] = h
-        facts[(len(neg_t)+1):, 0] = neg_h
+        num_neg_t = len(neg_t)
+        facts[:(num_neg_t+1), 0] = h
+        facts[(num_neg_t+1):, 0] = neg_h
         facts[0, 3] = t
-        facts[1:(len(neg_t)+1), 3] = neg_t
-        facts[(len(neg_t)+1):, 3] = t
+        facts[1:(num_neg_t+1), 3] = neg_t
+        facts[(num_neg_t+1):, 3] = t
         facts[:,1] = M
         facts[:,2] = r
         
@@ -224,7 +222,7 @@ class CustomEmbeddingModel(TransR, GraphParser):
                               j in range(i, max_idx)]) + batch_size
             
             batch_eval_set = np.empty(shape = (total_size, 4), dtype = 'int32')
-            
+
             # fill in the evaluation set array
             start = 0
             fact_evaluation_indices = {}
@@ -240,21 +238,21 @@ class CustomEmbeddingModel(TransR, GraphParser):
             # calculate scores for all facts
             scores = self.score(h = batch_eval_set[:,0],
                                 M = batch_eval_set[:,1],
-                                r = batch_eval_set[:,2],  
+                                r = batch_eval_set[:,2],
                                 t = batch_eval_set[:,3]).numpy()
-            
+
             # get each score's rank among facts in its evaluation set
             for j in range(i, max_idx):
                 start, end = fact_evaluation_indices[j]
                 ranks = rankdata(scores[start:end], method = 'average')
                 amri_numerator += (ranks[0] - 1)
-                amri_denominator += len(scores[start:end]) 
+                amri_denominator += len(scores[start:end])
 
         # calculate AMRI
         AMRI = 1 - (2 * amri_numerator / amri_denominator)
 
         return AMRI
-    
+
     # get head predictions for a general relation, specific relation, and tail
     def getHeadPredictions(self, tail, general_relation, specific_relation):
         
