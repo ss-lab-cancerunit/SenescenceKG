@@ -1,6 +1,7 @@
 from neo4j import GraphDatabase
 from json import dumps
 import re
+import logging
 
 class GraphAPI:
 
