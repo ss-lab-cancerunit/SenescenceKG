@@ -341,9 +341,11 @@ if __name__ == '__main__':
     batches = model.getBatches(pos_facts)
     
     # train the model and calculate AMRI
-    custom_results = model.train(batches, return_results = True)
+    with tf.device('/GPU:0'):
+        custom_results = model.train(batches, return_results = True)
+        amri = model.AMRIEvaluation(test)
+
     custom_results['params'] = custom_best_params
-    amri = model.AMRIEvaluation(test)
     custom_results['amri'] = amri
     print('AMRI: {}'.format(amri))
     
