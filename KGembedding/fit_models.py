@@ -56,6 +56,8 @@ if __name__ == '__main__':
         outdir = args.outdir + '/' if args.outdir[-1] != '/' else args.outdir
     else:
         outdir = ''
+
+    gpus = tf.config.list_physical_devices('GPU')
     
     os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
         
@@ -341,8 +343,13 @@ if __name__ == '__main__':
     batches = model.getBatches(pos_facts)
     
     # train the model and calculate AMRI
-    custom_results = model.train(batches, return_results = True)
-    amri = model.AMRIEvaluation(test)
+    if gpus:
+        with tf.device('/GPU:0'):
+            custom_results = model.train(batches, return_results = True)
+            amri = model.AMRIEvaluation(test)
+    else:
+        custom_results = model.train(batches, return_results=True)
+        amri = model.AMRIEvaluation(test)
 
     custom_results['params'] = custom_best_params
     custom_results['amri'] = amri
