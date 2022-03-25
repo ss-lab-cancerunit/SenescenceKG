@@ -56,9 +56,8 @@ if __name__ == '__main__':
         
         batches = model.getBatches(pos_facts)
 
-        with tf.device('/GPU:0'):
-            model.train(batches, verbose = False)
-            amri = model.AMRIEvaluation(validation)
+        model.train(batches, verbose = False)
+        amri = model.AMRIEvaluation(validation)
         
         return amri
     
