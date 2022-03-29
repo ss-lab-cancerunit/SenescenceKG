@@ -27,7 +27,7 @@ def extract_best_params(df, score_col = 'user_attrs_both.realistic.adjusted_arit
             argname = ptype + '_kwargs'
             if argname not in params:
                 params[argname] = {}
-            params[argname][pname] = value
+            params[argname][pname] = value.item()
             
         params['training_kwargs']['batch_size'] = int(params['training_kwargs']['batch_size'])
         params['training_kwargs']['num_epochs'] = 50
@@ -39,7 +39,7 @@ def extract_best_params(df, score_col = 'user_attrs_both.realistic.adjusted_arit
     else:
         param_names = top_model.index
         param_values = top_model.values
-        params = {name: v for name, v in zip(param_names, param_values)}
+        params = {name: v.item() for name, v in zip(param_names, param_values)}
         
     return params
 
