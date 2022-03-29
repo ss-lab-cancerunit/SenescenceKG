@@ -9,7 +9,7 @@ dependencies:
   - python=3.8.10
   - pandas
   - numpy
-  - tensorflow=2.8.0
+  - tensorflow
   - scikit-learn
   - optuna
   - pytorch
