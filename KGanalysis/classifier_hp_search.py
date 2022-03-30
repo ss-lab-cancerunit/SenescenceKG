@@ -6,7 +6,19 @@ import torch
 import optuna
 import tensorflow as tf
 import xml.etree.ElementTree as ET
+import logging as lg
+import sys
 from sklearn.model_selection import StratifiedKFold, train_test_split
+
+logger = lg.getLogger(__name__)
+
+formatter = lg.Formatter('%(asctime)s %(levelname)-8s: %(message)s')
+streamhandler = lg.StreamHandler(sys.stdout)
+streamhandler.setLevel(lg.INFO)
+streamhandler.setFormatter(formatter)
+logger.addHandler(streamhandler)
+logger.setLevel(lg.DEBUG)
+logger.propagate = False
 
 # make class for optuna objective
 
@@ -67,8 +79,9 @@ class Objective:
         mean_value = float(np.mean(metric_values))
         
         return mean_value
-    
-if __name__ == '__main___':
+
+
+if __name__ == '__main__':
     
     # import models, get embeddings
 
@@ -82,6 +95,8 @@ if __name__ == '__main___':
     complEx_embeddings = complEx_model['model'].entity_embeddings.cpu()
     custom_model = pickle.load(open('data/embeddings/custom_model.p', 'rb'))
     custom_embeddings = custom_model['ent_embeddings']
+
+    logger.info(f'Embedding models imported.')
     
     # import train/test sets used in the embedding models
     
@@ -195,7 +210,7 @@ if __name__ == '__main___':
                'pykeen_model_id2idx': pykeen_entity_id2idx,
                'embeddings': embeddings, 'targets': targets}
     
-    for target in targets:
+    for i, target in enumerate(targets, start=1):
         y = targets[target]
         results[target] = {}
         for model in embeddings:
@@ -207,5 +222,6 @@ if __name__ == '__main___':
             study.optimize(objective, n_trials = 50)
             trials = study.trials_dataframe()
             results[target][model] = trials
+        logger.info(f'Hyperparameter search for target {i} completed')
             
     pickle.dump(results, open('data/classifier/classifier_hp_results.p', 'wb'))
