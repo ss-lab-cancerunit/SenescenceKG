@@ -58,16 +58,6 @@ if __name__ == '__main__':
         outdir = ''
 
     gpus = tf.config.list_physical_devices('GPU')
-    if gpus:
-        try:
-            # Currently, memory growth needs to be the same across GPUs
-            for gpu in gpus:
-                tf.config.experimental.set_memory_growth(gpu, True)
-            logical_gpus = tf.config.experimental.list_logical_devices('GPU')
-            print(len(gpus), "Physical GPUs,", len(logical_gpus), "Logical GPUs")
-        except RuntimeError as e:
-            # Memory growth must be set before GPUs have been initialized
-            print(e)
     
     os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
         
@@ -75,20 +65,16 @@ if __name__ == '__main__':
     transR_trials_path = 'data/hyperparams/transR_trials.tsv'
     convE_trials_path = 'data/hyperparams/convE_trials.tsv'
     complEx_trials_path = 'data/hyperparams/complEx_trials.tsv'
-    custom_trials_path = 'data/hyperparams/custom_trials.tsv'
-    
+
     pykeen_triples_outpath = 'pykeen_all_triples.p'
     
     transE_outpath = 'transE_model.p'
     transR_outpath = 'transR_model.p'
     convE_outpath = 'convE_model.p'
     complEx_outpath = 'complEx_model.p'
-    custom_outpath = 'custom_model.p'
-    
+
     pykeen_train_outpath = 'pykeen_train.tsv'
     pykeen_test_outpath = 'pykeen_test.tsv'
-    custom_train_outpath = 'custom_train.tsv'
-    custom_test_outpath = 'custom_test.tsv'
     
     model = CustomEmbeddingModel(args.json, state = 123)
         
@@ -320,76 +306,3 @@ if __name__ == '__main__':
     
     pykeen_train.to_csv(outdir + pykeen_train_outpath, sep = '\t', index = False)
     pykeen_test.to_csv(outdir + pykeen_test_outpath, sep = '\t', index = False)
-        
-    custom_hp_trials = pd.read_csv(custom_trials_path, sep = '\t')
-    custom_best_params = extract_best_params(custom_hp_trials, score_col = 'value')
-    
-    # separate learning rate from other params, make optimizer
-    custom_best_model_params = {name: value for name, value in custom_best_params.items() 
-                                if name != 'lr'}
-    lr = custom_best_params['lr']
-    optimizer = tf.keras.optimizers.Adam(learning_rate = lr)
-        
-    # set seed
-    tf.random.set_seed(123)
-    
-    # train/test split
-    model.split(model.embedding_data, 
-                test_size = args.test_size,
-                validation_size = args.validation_size,
-                stratify_column = 'specific_relation_lab', 
-                state = 123)
-        
-    # initialize model with best params
-    model.initializeModel(model.embedding_facts, **custom_best_model_params, optimizer = optimizer)
-    
-    train, test = model.final_train_set, model.test_set
-    
-    # get positive facts
-    negs_per_pos = 5
-    pos_facts = train[['head', 'general_relation', 'specific_relation', 'tail']].to_numpy(dtype = 'int32')
-    
-    # get batches
-    batches = model.getBatches(pos_facts)
-    
-    # train the model and calculate AMRI
-    if gpus:
-        with tf.device('/GPU:0'):
-            custom_results = model.train(batches, return_results = True)
-            amri = model.AMRIEvaluation(test)
-    else:
-        custom_results = model.train(batches, return_results=True)
-        amri = model.AMRIEvaluation(test)
-
-    custom_results['params'] = custom_best_params
-    custom_results['amri'] = amri
-    print('AMRI: {}'.format(amri))
-    
-    # calculate AMRI for pathway relations, TF binding relations, and GO gene-term/term-term relations
-    test_pathway_relations = test[test['general_relation_lab'] != test['specific_relation_lab']]
-    amri_pathway_relations = model.AMRIEvaluation(test_pathway_relations)
-    custom_results['amri_pathway_relations'] = amri_pathway_relations
-    
-    test_TF_relations = test[test['general_relation_lab'] == 'TF_BINDING']
-    amri_TF_relations = model.AMRIEvaluation(test_TF_relations)
-    custom_results['amri_TF_relations'] = amri_TF_relations
-    
-    test_GO_gene_relations = test[np.logical_xor(test['head_type'] == 'GeneOntologyTerm', 
-                                                 test['tail_type'] == 'GeneOntologyTerm')]
-    amri_GO_gene_relations = model.AMRIEvaluation(test_GO_gene_relations)
-    custom_results['amri_GO_gene_term_relations'] = amri_GO_gene_relations
-    
-    test_GO_term_relations = test[(test['head_type'] == 'GeneOntologyTerm') & (test['tail_type'] == 'GeneOntologyTerm')]
-    amri_GO_term_relations = model.AMRIEvaluation(test_GO_term_relations)
-    custom_results['amri_GO_term_term_relations'] = amri_GO_term_relations
-    
-    test_physint_relations = test[test['general_relation_lab'] == 'PHYSICAL_INTERACTION']
-    amri_physint_relations = model.AMRIEvaluation(test_physint_relations)
-    custom_results['amri_physical_int_relations'] = amri_physint_relations
-        
-    # save pickle
-    pickle.dump(custom_results, open(outdir + custom_outpath, 'wb'))
-    
-    # save train/test sets
-    train.to_csv(outdir + custom_train_outpath, sep = '\t', index = False)
-    test.to_csv(outdir + custom_test_outpath, sep = '\t', index = False)
