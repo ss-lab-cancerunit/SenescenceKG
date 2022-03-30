@@ -86,13 +86,13 @@ if __name__ == '__main__':
     # import models, get embeddings
 
     transE_model = pickle.load(open('data/embeddings/transE_model.p', 'rb'))
-    transE_embeddings = transE_model['model'].entity_embeddings.cpu()
+    transE_embeddings = transE_model['model'].entity_representations[0].cpu()
     transR_model = pickle.load(open('data/embeddings/transR_model.p', 'rb'))
-    transR_embeddings = transR_model['model'].entity_embeddings.cpu()
+    transR_embeddings = transR_model['model'].entity_representations[0].cpu()
     convE_model = pickle.load(open('data/embeddings/convE_model.p', 'rb'))
-    convE_embeddings = convE_model['model'].entity_embeddings.cpu()
+    convE_embeddings = convE_model['model'].entity_representations[0].cpu()
     complEx_model = pickle.load(open('data/embeddings/complEx_model.p', 'rb'))
-    complEx_embeddings = complEx_model['model'].entity_embeddings.cpu()
+    complEx_embeddings = complEx_model['model'].entity_representations[0].cpu()
     custom_model = pickle.load(open('data/embeddings/custom_model.p', 'rb'))
     custom_embeddings = custom_model['ent_embeddings']
 
