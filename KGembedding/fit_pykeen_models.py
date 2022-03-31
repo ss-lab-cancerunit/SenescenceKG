@@ -184,7 +184,7 @@ if __name__ == '__main__':
                                                    mapped_triples = pykeen_physint_test_triples.mapped_triples,
                                                    additional_filter_triples = [pykeen_train_triples.mapped_triples])
     
-    transE_results = {'model': transE.model,
+    transE_results = {'model': transE.model.cpu(),
                       'amri': transE.get_metric('adjusted_arithmetic_mean_rank_index'),
                       'amri_pathway_relations': transE_pathway_evaluation.get_metric('adjusted_arithmetic_mean_rank_index'),
                       'amri_TF_relations': transE_TF_evaluation.get_metric('adjusted_arithmetic_mean_rank_index'),
@@ -221,7 +221,7 @@ if __name__ == '__main__':
                                                    mapped_triples = pykeen_physint_test_triples.mapped_triples,
                                                    additional_filter_triples = [pykeen_train_triples.mapped_triples])
     
-    transR_results = {'model': transR.model,
+    transR_results = {'model': transR.model.cpu(),
                       'amri': transR.get_metric('adjusted_arithmetic_mean_rank_index'),
                       'amri_pathway_relations': transR_pathway_evaluation.get_metric('adjusted_arithmetic_mean_rank_index'),
                       'amri_TF_relations': transR_TF_evaluation.get_metric('adjusted_arithmetic_mean_rank_index'),
@@ -257,7 +257,7 @@ if __name__ == '__main__':
     convE_physint_evaluation = evaluator.evaluate(model = convE.model,
                                                   mapped_triples = pykeen_physint_test_triples.mapped_triples,
                                                   additional_filter_triples = [pykeen_train_triples.mapped_triples])
-    convE_results = {'model': convE.model,
+    convE_results = {'model': convE.model.cpu(),
                      'amri': convE.get_metric('adjusted_arithmetic_mean_rank_index'),
                      'amri_pathway_relations': convE_pathway_evaluation.get_metric('adjusted_arithmetic_mean_rank_index'),
                      'amri_TF_relations': convE_GO_gene_evaluation.get_metric('adjusted_arithmetic_mean_rank_index'),
@@ -294,7 +294,7 @@ if __name__ == '__main__':
                                                     mapped_triples = pykeen_physint_test_triples.mapped_triples,
                                                     additional_filter_triples = [pykeen_train_triples.mapped_triples])
     
-    complEx_results = {'model': complEx.model,
+    complEx_results = {'model': complEx.model.cpu(),
                        'amri': complEx.get_metric('adjusted_arithmetic_mean_rank_index'),
                        'amri_pathway_relations': complEx_pathway_evaluation.get_metric('adjusted_arithmetic_mean_rank_index'),
                        'amri_TF_relations': complEx_TF_evaluation.get_metric('adjusted_arithmetic_mean_rank_index'),
